@@ -1,0 +1,31 @@
+{
+    "id": "EC497B72",
+    "path": "~/Fundar/Nodo-IA.github.io/main/index.qmd",
+    "project_path": "main/index.qmd",
+    "type": "quarto_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1747151789000.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "0,0",
+        "scrollLine": "1",
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "0",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "20:0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1747161980,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1747161980046,
+    "read_only": false,
+    "read_only_alternatives": []
+}
