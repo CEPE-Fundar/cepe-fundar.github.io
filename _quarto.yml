@@ -8,8 +8,9 @@ website:
     left:
       - href: index.qmd
         text: "  "
- 
     right:
+      - href: encuesta.qmd
+        text: "Investigación"
       - icon: github
         href: https://github.com/cepe-fundar
 format:
