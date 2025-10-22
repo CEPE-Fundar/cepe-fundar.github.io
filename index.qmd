@@ -1,6 +1,6 @@
 ---
-title: "  "
-description: "Inteligencia Artificial para la Innovación Argentina"
+title: "CEPE-Fundar"
+description: "Inteligencia Artificial para el Desarrollo de Argentina"
 ---
 
 La inteligencia artificial (IA) tiene el potencial para transformar de manera profunda las economías y sociedades en América Latina. La dirección de esa transformación dependerá de cómo los países de la región respondan a varios desafíos, como la adopción en las cadenas productivas, la adecuación de marcos regulatorios, la capacitación de los trabajadores, la educación y el fortalecimiento de insumos clave como la infraestructura y la I+D, entre otros..\

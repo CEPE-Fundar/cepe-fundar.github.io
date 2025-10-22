@@ -2,8 +2,9 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "CEPE-Fundar "
+  title: "Inicio"
   navbar:
+    background: "#7DA5C7"
     logo: " "
     left:
       - href: index.qmd
