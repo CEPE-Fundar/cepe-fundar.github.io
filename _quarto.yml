@@ -1,25 +1,22 @@
 project:
   type: website
   output-dir: docs
-
 website:
-  title: " "
+  title: "CEPE-Fundar "
   navbar:
-    logo: "images/loguito.png"
+    logo: " "
     left:
       - href: index.qmd
         text: "  "
-      - href: about.qmd
-        text: Sobre el hub
+ 
     right:
       - icon: github
-        href: https://github.com/Nodo-IA
-
+        href: https://github.com/cepe-fundar
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
 
 
 

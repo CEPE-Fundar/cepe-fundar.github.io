@@ -3,8 +3,9 @@ title: "      "
 description: "Inteligencia Artificial para la Innovación Argentina"
 ---
 
-La inteligencia artificial (IA) tiene el potencial para transformar de manera profunda las economías y sociedades en América Latina. La dirección de esa transformación dependerá de cómo los países de la región respondan a varios desafíos, como la adopción en las cadenas productivas, la adecuación de marcos regulatorios, la capacitación de los trabajadores, la educación y el fortalecimiento de insumos clave como la infraestructura y la I+D, entre otros.\
-\
-El **Centro de Evaluación de Políticas basadas en la Evidencia** ([**CEPE**](https://www.utdt.edu/listado_contenidos.php?id_item_menu=25278)) y [**Fundar**](https://fund.ar/serie/inteligencia-artificial) se unieron para inaugurar un [hub](/about.html) *de* excelencia que se propone facilitar una red de diálogo y colaboración que potencie el ecosistema de IA en Argentina. \
-\
-![](images/logos.png)
+La inteligencia artificial (IA) tiene el potencial para transformar de manera profunda las economías y sociedades en América Latina. La dirección de esa transformación dependerá de cómo los países de la región respondan a varios desafíos, como la adopción en las cadenas productivas, la adecuación de marcos regulatorios, la capacitación de los trabajadores, la educación y el fortalecimiento de insumos clave como la infraestructura y la I+D, entre otros..\
+El **Centro de Evaluación de Políticas basadas en la Evidencia** ([**CEPE**](https://www.utdt.edu/listado_contenidos.php?id_item_menu=25278)) y [**Fundar**](https://fund.ar/serie/inteligencia-artificial) se unieron para conformar un espacio de excelencia que se propone facilitar una red de diálogo y colaboración que potencie el ecosistema de IA en Argentina.
+
+Nuestra agenda de trabajo conjunta busca abordar estos desafíos generando un espacio de excelencia y facilitando una red de diálogo y colaboración que potencie el ecosistema de IA en Argentina. Promoverá la investigación y el diseño de políticas para que la IA genere incrementos en la productividad y el bienestar. Trabajará, con la colaboración de universidades y otros centros líderes de la región, el Hub aportará a la construcción de una red latinoamericana de IA para influir en el desarrollo, la adopción y la regulación de la IA en la región de forma equilibrada e informada y posicionar a América Latina como líder en la adopción responsable de la IA.
+
+![](logos_combinados.png)
