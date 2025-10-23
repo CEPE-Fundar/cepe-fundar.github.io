@@ -3,7 +3,7 @@ title: "Nosotros"
 description: "Inteligencia Artificial para el Desarrollo de Argentina"
 ---
 
-El **Centro de Evaluación de Políticas basadas en la Evidencia** ([**CEPE**](https://www.utdt.edu/listado_contenidos.php?id_item_menu=25278)) y [**Fundar**](https://fund.ar/serie/inteligencia-artificial), en el marco de su agenda conjunta sobre inteligencia artificial, innovación y desarrollo productivo, trabajamos para traducir datos en acción: Empresas: promover la adopción responsable y productiva de IA. Gobiernos: proveer evidencia para políticas éticas e inclusivas. Sociedad: impulsar la alfabetización digital y capacitación laboral.
+El **El Centro de Políticas Públicas** ([**CEPE**](https://www.utdt.edu/listado_contenidos.php?id_item_menu=25278)) de la Universidad Torcuato Di Tella y [**Fundar**](https://fund.ar/serie/inteligencia-artificial), en el marco de su agenda conjunta sobre inteligencia artificial, innovación y desarrollo productivo, trabajamos para traducir datos en acción: Empresas: promover la adopción responsable y productiva de IA. Gobiernos: proveer evidencia para políticas éticas e inclusivas. Sociedad: impulsar la alfabetización digital y capacitación laboral.
 
 Somos el primer espacio en Argentina dedicado a producir datos, investigación y proyectos innovadores sobre inteligencia artificial, con foco en políticas públicas y desarrollo económico. Queremos que la IA sea un vector para impulsar un desarrollo inclusivo, competitivo y sostenible para Argentina y la región.
 
