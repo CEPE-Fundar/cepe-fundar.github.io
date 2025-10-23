@@ -8,7 +8,7 @@ website:
     logo: " "
     left:
       - href: index.qmd
-        text: "  "
+        text: "Nosotros"
       - href: encuesta.qmd
         text: "Investigación"  
     right:

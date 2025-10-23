@@ -1,11 +1,45 @@
 ---
-title: "CEPE-Fundar"
+title: "Nosotros"
 description: "Inteligencia Artificial para el Desarrollo de Argentina"
 ---
 
-La inteligencia artificial (IA) tiene el potencial para transformar de manera profunda las economías y sociedades en América Latina. La dirección de esa transformación dependerá de cómo los países de la región respondan a varios desafíos, como la adopción en las cadenas productivas, la adecuación de marcos regulatorios, la capacitación de los trabajadores, la educación y el fortalecimiento de insumos clave como la infraestructura y la I+D, entre otros..\
-El **Centro de Evaluación de Políticas basadas en la Evidencia** ([**CEPE**](https://www.utdt.edu/listado_contenidos.php?id_item_menu=25278)) y [**Fundar**](https://fund.ar/serie/inteligencia-artificial) se unieron para conformar un espacio que se propone facilitar una red de diálogo y colaboración que potencie el ecosistema de IA en Argentina.
+El **Centro de Evaluación de Políticas basadas en la Evidencia** ([**CEPE**](https://www.utdt.edu/listado_contenidos.php?id_item_menu=25278)) y [**Fundar**](https://fund.ar/serie/inteligencia-artificial), en el marco de su agenda conjunta sobre inteligencia artificial, innovación y desarrollo productivo, trabajamos para traducir datos en acción: Empresas: promover la adopción responsable y productiva de IA. Gobiernos: proveer evidencia para políticas éticas e inclusivas. Sociedad: impulsar la alfabetización digital y capacitación laboral.
 
-Nuestra agenda de trabajo conjunta busca abordar estos desafíos generando un espacio de excelencia que promoverá la investigación y el diseño de políticas para que la IA genere incrementos en la productividad y el bienestar. Trabajará, con la colaboración de universidades y otros centros líderes de la región y aportará a la construcción de una red latinoamericana de IA para influir en el desarrollo, la adopción y la regulación de la IA en de forma equilibrada e informada y posicionar a América Latina como líder en la adopción responsable de la IA.
+Somos el primer espacio en Argentina dedicado a producir datos, investigación y proyectos innovadores sobre inteligencia artificial, con foco en políticas públicas y desarrollo económico. Queremos que la IA sea un vector para impulsar un desarrollo inclusivo, competitivo y sostenible para Argentina y la región.
 
-![](logos_combinados.png)
+> **CEPE** es el centro de políticas públicas basadas en evidencia de la Escuela de Gobierno de la Universidad Torcuato Di Tella.
+>
+> **Fundar** es un centro de innovación en políticas de desarrollo que combina investigación aplicada y acción pública para construir una Argentina más productiva, sustentable e inclusiva.
+
+#### **¿Qué queremos lograr?**
+
+Nuestro objetivo es que la inteligencia artificial se convierta en un motor de productividad, inclusión y desarrollo sostenible. La IA puede aumentar la productividad económica si existe un ecosistema y acciones coordinadas y eso va a depender de las decisiones que tomemos hoy y de las políticas que implementemos Para eso, nos proponemos traducir datos en acción y generar impactos concretos en distintos niveles:
+
+-   **Empresas**: generar inteligencia estratégica que permita acelerar la adopción de IA, mejorar productividad y competir regional e internacionalmente.
+
+-   **Gobiernos**: proveer evidencia y propuestas para anticipar políticas públicas que sean éticas, competitivas y adaptadas a la realidad regional
+
+-   **Sociedad**: impulsar innovación en educación y capacitación laboral que reduzca desigualdades y prepare a las personas para empleos de calidad en la era de la IA.
+
+-   **Región**: liderar una red de colaboración que conecte a Argentina con América Latina y posicione a la región en la discusión global sobre IA.
+
+
+#### 
+
+|      **CEPE**       |        **Fundar**        |
+|:-------------------:|:------------------------:|
+| Eduardo Levy Yeyati |    Daniel Yankelevich    |
+|   Mariana Barrera   | Juan Pablo Ruiz Nicolini |
+|    Darío Judzik     |    Agustina Bendersky    |
+|   Guadalupe Dorna   |      Juan O'Farrell      |
+|   Soledad Guilera   |    Johanna Cristallo     |
+|                     |      Mariana Kunst       |
+|                     |    Alejandro Avenburg    |
+|                     |   Macarena Santolaria    |
+|                     |  Juan Manuel Ottaviano   |
+
+------------------------------------------------------------------------
+
+#### 
+
+![](logos_combinados.png){fig-align="center" width="400"}
