@@ -29,8 +29,8 @@ por eso que es esencial generar nueva información en tiempo real sobre
 el alcance y la naturaleza del proceso de adopción.
 
 A tal fin, en el marco de nuestra agenda de trabajo conjunta, desde el
-\[**CEPE**\](https://www.utdt.edu/listado_contenidos.php?id_item_menu=25278)**-Di
-Tella** y \[**Fundar**\](https://fund.ar/serie/inteligencia-artificial)
+[**CEPE**](https://www.utdt.edu/listado_contenidos.php?id_item_menu=25278)**-Di
+Tella** y [**Fundar**](https://fund.ar/serie/inteligencia-artificial)
 realizamos una encuesta con un panel online con cuotas por género, nivel
 educativo, edad, nivel socioeconómico y región para aproximar la
 composición de la población adulta (18 años o más), recolectadas entre
