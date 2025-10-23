@@ -1,11 +1,12 @@
 ---
 title: "Encuesta Nacional sobre Adopción de IA"
 description: "Argnetina y Uruguay"
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-
-
-### ¿Por qué una encuesta sobre usos de IA? 
+### ¿Por qué una encuesta sobre usos de IA?
 
 El mundo ya no es el que conocíamos. La inteligencia artificial está
 transformando la economía y la vida cotidiana a un ritmo acelerado. La
@@ -27,15 +28,22 @@ especulaciones basadas en información parciales o desactualizadas. Es
 por eso que es esencial generar nueva información en tiempo real sobre
 el alcance y la naturaleza del proceso de adopción.
 
-A tal fin, este informe resume los resultados de una encuesta realizada
-por CEPE-Di Tella y Fundar a través de la empresa Netquest con un panel
-online con cuotas por género, nivel educativo, edad, nivel
-socioeconómico y región para aproximar la composición de la población
-adulta (18 años o más), recolectadas entre agosto y septiembre de 2025
-(ver anexo metodológico para más detalles). La encuesta se centra
-específicamente en el uso (personal y laboral) de la inteligencia
-artificial generativa, entendiendo por ésta a "sistemas que crean
-textos, imágenes o códigos automáticamente". Además de indagar en
-los planos personales y laborales del uso de IA generativa, la encuesta
-indagó en dimensiones como el nivel de confianza, conocimiento,
-perspectivas y sentimientos respecto a esta herramienta.
+A tal fin, en el marco de nuestra agenda de trabajo conjunta, desde el
+\[**CEPE**\](https://www.utdt.edu/listado_contenidos.php?id_item_menu=25278)**-Di
+Tella** y \[**Fundar**\](https://fund.ar/serie/inteligencia-artificial)
+realizamos una encuesta con un panel online con cuotas por género, nivel
+educativo, edad, nivel socioeconómico y región para aproximar la
+composición de la población adulta (18 años o más), recolectadas entre
+agosto y septiembre de 2025 en Argentina y Uruguay.
+
+La encuesta se centra específicamente en el uso (personal y laboral) de
+la inteligencia artificial generativa, entendiendo por ésta a "*sistemas
+que crean textos, imágenes o códigos automáticamente*". Además de
+indagar en los planos personales y laborales del uso de IA generativa,
+la encuesta indagó en dimensiones como el nivel de confianza,
+conocimiento, perspectivas y sentimientos respecto a esta herramienta.
+
+### **INFORMES:**
+
+📄ARGENTINA\
+📄URUGUAY

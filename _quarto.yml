@@ -9,9 +9,9 @@ website:
     left:
       - href: index.qmd
         text: "  "
-    right:
       - href: encuesta.qmd
-        text: "Investigación"
+        text: "Investigación"  
+    right:
       - icon: github
         href: https://github.com/cepe-fundar
 format:
