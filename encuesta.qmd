@@ -9,9 +9,9 @@ editor:
 ### **INFORMES:**
 
 📄**ARGENTINA**
-[⬇️](https://raw.githubusercontent.com/CEPE-Fundar/cepe-fundar.github.io/main/informes/encuesta_adopcion_arg.pdf "Descargar")\
+[⬇️](https://drive.google.com/file/d/1uXZyQ8aqcDyxy2vtqSgQsRxEbEMk4E0q/view?usp=drive_link "Descargar")\
 **📄URUGUAY
-[⬇️](https://raw.githubusercontent.com/CEPE-Fundar/cepe-fundar.github.io/main/informes/encuesta_adopcion_uru.pdf "Descargar")**
+[⬇️](https://drive.google.com/file/d/1AJtLsLVoz8QJ5BTLwsAX7GO4lrBfOBKl/view?usp=drive_link "Descargar")**
 
 ![](images/Mesa de trabajo 1@2x.png)
 
