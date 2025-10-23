@@ -45,5 +45,7 @@ conocimiento, perspectivas y sentimientos respecto a esta herramienta.
 
 ### **INFORMES:**
 
-📄ARGENTINA\
-📄URUGUAY
+📄**ARGENTINA**
+[⬇️](https://raw.githubusercontent.com/CEPE-Fundar/cepe-fundar.github.io/main/informes/encuesta_adopcion_arg.pdf "Descargar")\
+**📄URUGUAY
+[⬇️](https://raw.githubusercontent.com/CEPE-Fundar/cepe-fundar.github.io/main/informes/encuesta_adopcion_uru.pdf "Descargar")**
