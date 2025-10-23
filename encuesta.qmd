@@ -55,3 +55,8 @@ que crean textos, imágenes o códigos automáticamente". Además de indagar
 en los planos personales y laborales del uso de IA generativa, la
 encuesta exploró dimensiones como el nivel de confianza, conocimiento,
 perspectivas y sentimientos respecto a esta herramienta.
+
+
+#### 
+
+![](logos_combinados.png){fig-align="center" width="400"}
