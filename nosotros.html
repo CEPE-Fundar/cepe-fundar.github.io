@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Equipo nadIA - CEPE Di Tella y Fundar trabajando en IA para el desarrollo">
+    <title>Nosotros - nadIA</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
+    <style>
+        .page-header {
+            padding: 8rem 0 3rem;
+            text-align: center;
+            background: var(--gradient-mesh);
+        }
+        
+        .intro-section {
+            max-width: 800px;
+            margin: 0 auto 4rem;
+        }
+        
+        .intro-image {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .intro-image img {
+            max-width: 600px;
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .goals-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .goal-card {
+            padding: 2rem;
+            background: rgba(46, 39, 243, 0.03);
+            border-radius: 16px;
+            border: 1px solid rgba(46, 39, 243, 0.1);
+        }
+        
+        .goal-card h4 {
+            color: var(--color-primary);
+            margin-bottom: 0.75rem;
+        }
+        
+        .team-table {
+            margin: 3rem 0;
+            overflow-x: auto;
+        }
+        
+        .team-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .team-table th,
+        .team-table td {
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 1px solid var(--color-border);
+        }
+        
+        .team-table th {
+            background: var(--gradient-mesh);
+            font-weight: 700;
+            color: var(--color-primary);
+        }
+        
+        .team-table td {
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="logo.svg" alt="nadIA" class="logo-img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+                <li><a href="investigacion.html" class="nav-link">Investigación</a></li>
+                <li><a href="blog.html" class="nav-link">Opinión</a></li>
+                <li><a href="https://github.com/cepe-fundar" target="_blank" class="nav-link nav-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a></li>
+            </ul>
+        </div>
+        <div class="scroll-progress"><div class="scroll-progress-bar"></div></div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1 data-aos="fade-up">Nosotros</h1>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="intro-section">
+                <div class="intro-image" data-aos="fade-up">
+                    <img src="footer.png" alt="NADIA">
+                </div>
+                
+                <p data-aos="fade-up">Desde el <strong>Centro de Políticas Públicas (CEPE)</strong> de la Universidad Torcuato Di Tella y desde <strong>Fundar</strong>, en el marco de nuestra agenda conjunta sobre inteligencia artificial, innovación y desarrollo productivo, venimos trabajando para <strong>traducir datos en acción</strong>.</p>
+            </div>
+
+            <article class="manifesto">
+                <h2 data-aos="fade-up">¿Qué queremos lograr?</h2>
+                
+                <p data-aos="fade-up">La IA puede aumentar la productividad económica si existe un ecosistema y acciones coordinadas y eso va a depender de las decisiones que tomemos hoy y de las políticas que implementemos. Para eso, nos proponemos traducir datos en acción y generar impactos concretos en distintos niveles:</p>
+
+                <div class="goals-grid">
+                    <div class="goal-card" data-aos="fade-up" data-aos-delay="100">
+                        <h4>Empresas</h4>
+                        <p>Generar inteligencia estratégica que permita acelerar la adopción de IA, mejorar productividad y competir regional e internacionalmente.</p>
+                    </div>
+                    <div class="goal-card" data-aos="fade-up" data-aos-delay="200">
+                        <h4>Gobiernos</h4>
+                        <p>Proveer evidencia y propuestas para anticipar políticas públicas que sean éticas, competitivas y adaptadas a la realidad regional.</p>
+                    </div>
+                    <div class="goal-card" data-aos="fade-up" data-aos-delay="300">
+                        <h4>Sociedad</h4>
+                        <p>Impulsar innovación en educación y capacitación laboral que reduzca desigualdades y prepare a las personas para empleos de calidad en la era de la IA.</p>
+                    </div>
+                    <div class="goal-card" data-aos="fade-up" data-aos-delay="400">
+                        <h4>Región</h4>
+                        <p>Liderar una red de colaboración que conecte a Argentina con América Latina y posicione a la región en la discusión global sobre IA.</p>
+                    </div>
+                </div>
+
+                <h2 data-aos="fade-up">nadIA</h2>
+                
+                <p data-aos="fade-up"><strong>nadIA</strong> es el primer espacio en Argentina dedicado a producir datos, investigación y proyectos innovadores sobre inteligencia artificial, con foco en políticas públicas y desarrollo económico. Queremos que la IA sea un vector para impulsar un desarrollo inclusivo, competitivo y sostenible para Argentina y la región.</p>
+
+                <blockquote data-aos="fade-up">
+                    <p><strong><a href="https://www.utdt.edu/listado_contenidos.php?id_item_menu=25278" target="_blank">CEPE</a></strong> es el centro de políticas públicas basadas en evidencia de la Escuela de Gobierno de la Universidad Torcuato Di Tella.</p>
+                </blockquote>
+
+                <blockquote data-aos="fade-up">
+                    <p><strong><a href="https://fund.ar/agendas/ia-para-el-desarrollo/" target="_blank">Fundar</a></strong> es un centro de innovación en políticas de desarrollo que busca impulsar transformaciones estructurales a partir de soluciones concretas que puedan ser aplicadas y testeadas.</p>
+                </blockquote>
+
+                <h2 data-aos="fade-up">Equipo</h2>
+
+                <div class="team-table" data-aos="fade-up">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>CEPE</th>
+                                <th>Fundar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Eduardo Levy Yeyati</td>
+                                <td>Daniel Yankelevich</td>
+                            </tr>
+                            <tr>
+                                <td>Mariana Barrera</td>
+                                <td>Juan Pablo Ruiz Nicolini</td>
+                            </tr>
+                            <tr>
+                                <td>Darío Judzik</td>
+                                <td>Agustina Bendersky</td>
+                            </tr>
+                            <tr>
+                                <td>Guadalupe Dorna</td>
+                                <td>Juan O'Farrell</td>
+                            </tr>
+                            <tr>
+                                <td>Soledad Guilera</td>
+                                <td>Johanna Cristallo</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Mariana Kunst</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Alejandro Avenburg</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Macarena Santolaria</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <img src="NADIA-banners.png" alt="CEPE y Fundar" class="footer-logo">
+                <p class="footer-text">Nodo Argentino de Inteligencia Artificial (nadIA)</p>
+                <p class="footer-text">Una iniciativa de <a href="https://www.utdt.edu/listado_contenidos.php?id_item_menu=25278" target="_blank">CEPE-Di Tella</a> y <a href="https://fund.ar/" target="_blank">Fundar</a></p>
+                <p class="footer-text" style="margin-top: 1rem; font-size: 0.85rem; opacity: 0.7;">Optimización web por <a href="https://mgobeaalcoba.github.io/" target="_blank" rel="noopener noreferrer">Mariano Gobea Alcoba</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+    </button>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

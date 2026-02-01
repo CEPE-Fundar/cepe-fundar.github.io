@@ -1,12 +1,24 @@
-/.quarto/
-.Rproj.user
+# Quarto legacy backup
+_quarto_old/
 
-**/*.quarto_ipynb
+# macOS
+.DS_Store
+.DS_Store?
 
-# Archivos de desarrollo/preview
-PREVIEW_INSTRUCTIONS.md
-docs/PREVIEW_INSTRUCTIONS.html
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Archivos de instalación de Quarto
-*.deb
-*.tar.gz
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS generated
+Thumbs.db
+ehthumbs.db

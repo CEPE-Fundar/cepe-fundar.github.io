@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reflexiones, análisis y novedades sobre inteligencia artificial y políticas públicas">
+    <title>Opinión - nadIA</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
+    <style>
+        .blog-header {
+            padding: 8rem 0 3rem;
+            text-align: center;
+            background: var(--gradient-mesh);
+        }
+        
+        .blog-layout {
+            display: grid;
+            grid-template-columns: 1fr 280px;
+            gap: 3rem;
+            align-items: start;
+        }
+        
+        .blog-filters {
+            position: sticky;
+            top: 100px;
+            background: white;
+            border-radius: 16px;
+            padding: 1.5rem;
+            border: 1px solid var(--color-border);
+        }
+        
+        .filter-title {
+            font-size: 0.875rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--color-text-light);
+            margin-bottom: 1rem;
+        }
+        
+        .filter-btn {
+            display: block;
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background: transparent;
+            border: none;
+            border-radius: 10px;
+            text-align: left;
+            font-weight: 500;
+            color: var(--color-text);
+            cursor: pointer;
+            transition: all var(--transition-base);
+            margin-bottom: 0.5rem;
+        }
+        
+        .filter-btn:hover {
+            background: rgba(46, 39, 243, 0.05);
+            color: var(--color-primary);
+            transform: translateX(4px);
+        }
+        
+        .filter-btn.active {
+            background: rgba(46, 39, 243, 0.1);
+            color: var(--color-primary);
+            font-weight: 600;
+        }
+        
+        .blog-entry {
+            margin-bottom: 2rem;
+        }
+        
+        @media (max-width: 968px) {
+            .blog-layout {
+                grid-template-columns: 1fr;
+            }
+            
+            .blog-filters {
+                position: static;
+                display: flex;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+                padding: 1rem;
+            }
+            
+            .filter-btn {
+                width: auto;
+                display: inline-block;
+                padding: 0.5rem 1rem;
+                margin: 0;
+            }
+            
+            .filter-title {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="logo.svg" alt="nadIA" class="logo-img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+                <li><a href="investigacion.html" class="nav-link">Investigación</a></li>
+                <li><a href="blog.html" class="nav-link">Opinión</a></li>
+                <li><a href="https://github.com/cepe-fundar" target="_blank" class="nav-link nav-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a></li>
+            </ul>
+        </div>
+        <div class="scroll-progress"><div class="scroll-progress-bar"></div></div>
+    </nav>
+
+    <header class="blog-header">
+        <div class="container">
+            <h1 data-aos="fade-up">Opinión</h1>
+            <p data-aos="fade-up" data-aos-delay="200" style="font-size: 1.25rem; color: var(--color-text-light);">Reflexiones, análisis y novedades sobre inteligencia artificial y políticas públicas</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="blog-layout">
+                <div class="blog-content">
+                    
+                    <div class="blog-entry card" data-categories="Gobernanza">
+                        <div class="card-meta">
+                            <span>28 de enero, 2026</span>
+                            <span>•</span>
+                            <span>Daniel Yankelevich</span>
+                        </div>
+                        <h3 class="card-title"><a href="posts/sturzenegger-argentina-no-necesita-ley-ia.html">Federico Sturzenegger tiene razón: Argentina no necesita una ley de inteligencia artificial</a></h3>
+                        <p class="card-excerpt">Federico Sturzenegger argumenta que Argentina no necesita una ley específica de inteligencia artificial, analizando los desafíos regulatorios y proponiendo alternativas...</p>
+                        <a href="posts/sturzenegger-argentina-no-necesita-ley-ia.html" class="card-link">Leer más →</a>
+                    </div>
+
+                    <div class="blog-entry card" data-categories="Adopción">
+                        <div class="card-meta">
+                            <span>21 de noviembre, 2025</span>
+                            <span>•</span>
+                            <span>Lucía Barrios y Eduardo Levy Yeyati</span>
+                        </div>
+                        <h3 class="card-title"><a href="posts/uso-ia-uruguay-jovenes-educacion-ingreso.html">Uso de la IA en Uruguay se concentra en los jóvenes y en personas con mayor nivel educativo e ingreso, según estudio</a></h3>
+                        <p class="card-excerpt">Un estudio realizado por FUNDAR y CEPE analiza el uso de inteligencia artificial en Uruguay, revelando patrones de adopción que se concentran principalmente en los jóvenes...</p>
+                        <a href="posts/uso-ia-uruguay-jovenes-educacion-ingreso.html" class="card-link">Leer más →</a>
+                    </div>
+
+                    <div class="blog-entry card" data-categories="Adopción">
+                        <div class="card-meta">
+                            <span>18 de noviembre, 2025</span>
+                            <span>•</span>
+                            <span>Irina Sternik y Daniel Yankelevich</span>
+                        </div>
+                        <h3 class="card-title"><a href="posts/como-y-para-que-usamos-ia-argentina-estudio.html">Cómo y para qué usamos la inteligencia artificial en Argentina, según un estudio académico</a></h3>
+                        <p class="card-excerpt">Por primera vez se presentaron datos locales de adopción y uso sobre inteligencia artificial. Un informe elaborado por FUNDAR y CEPE revela cómo los individuos usan IA...</p>
+                        <a href="posts/como-y-para-que-usamos-ia-argentina-estudio.html" class="card-link">Leer más →</a>
+                    </div>
+
+                    <div class="blog-entry card" data-categories="Gobernanza Innovación">
+                        <div class="card-meta">
+                            <span>10 de septiembre, 2025</span>
+                            <span>•</span>
+                            <span>Eduardo Levy Yeyati</span>
+                        </div>
+                        <h3 class="card-title"><a href="posts/una-inteligencia-artificial-que-hable-nuestro-idioma.html">Una inteligencia artificial que hable nuestro idioma</a></h3>
+                        <p class="card-excerpt">"LatamGPT", un modelo de inteligencia artificial diseñado para América Latina. "Dime cómo hablas y te diré de dónde vienes", podría susurrar un algoritmo...</p>
+                        <a href="posts/una-inteligencia-artificial-que-hable-nuestro-idioma.html" class="card-link">Leer más →</a>
+                    </div>
+
+                    <div class="blog-entry card" data-categories="Gobernanza">
+                        <div class="card-meta">
+                            <span>10 de agosto, 2025</span>
+                            <span>•</span>
+                            <span>Daniel Yankelevich</span>
+                        </div>
+                        <h3 class="card-title"><a href="posts/no-culpen-al-algoritmo.html">No culpen al algoritmo: ¿cómo regular la inteligencia artificial en un mundo demasiado humano?</a></h3>
+                        <p class="card-excerpt">En 2018, mientras en el Congreso se debatía la despenalización del aborto, el gobierno de la provincia de Salta anunció un algoritmo que permitía predecir embarazos adolescentes...</p>
+                        <a href="posts/no-culpen-al-algoritmo.html" class="card-link">Leer más →</a>
+                    </div>
+
+                    <div class="blog-entry card" data-categories="Innovación">
+                        <div class="card-meta">
+                            <span>6 de julio, 2025</span>
+                            <span>•</span>
+                            <span>Macarena Santolaria</span>
+                        </div>
+                        <h3 class="card-title"><a href="posts/ia-sin-ciencia-ficcion.html">Inteligencia artificial sin ciencia ficción: más allá de los chatbots, hay mucho por hacer</a></h3>
+                        <p class="card-excerpt">Más que preocuparnos por frenar el ascenso inminente y universal de la IA, en Argentina la principal preocupación debería ser su baja implementación...</p>
+                        <a href="posts/ia-sin-ciencia-ficcion.html" class="card-link">Leer más →</a>
+                    </div>
+
+                    <div class="blog-entry card" data-categories="Gobernanza">
+                        <div class="card-meta">
+                            <span>15 de junio, 2025</span>
+                            <span>•</span>
+                            <span>Daniel Yankelevich</span>
+                        </div>
+                        <h3 class="card-title"><a href="posts/deepfakes-campanas-sucias.html">Deepfakes, campañas sucias y un decálogo que parece sátira, pero denuncia algo muy real</a></h3>
+                        <p class="card-excerpt">El año pasado hubo al menos tres casos en que un alumno de secundaria publicó videos íntimos de sus compañeras. El tema trascendió porque, en todos los casos, no eran exactamente ellas...</p>
+                        <a href="posts/deepfakes-campanas-sucias.html" class="card-link">Leer más →</a>
+                    </div>
+
+                    <div class="blog-entry card" data-categories="Educación">
+                        <div class="card-meta">
+                            <span>15 de enero, 2025</span>
+                            <span>•</span>
+                            <span>Eduardo Levy Yeyati</span>
+                        </div>
+                        <h3 class="card-title"><a href="posts/la-paradoja-de-tercerizar-el-pensamiento-en-la-ia.html">La paradoja de tercerizar el pensamiento en la IA</a></h3>
+                        <p class="card-excerpt">El riesgo de tercerizar en la IA las tareas complejas de pensamiento.</p>
+                        <a href="posts/la-paradoja-de-tercerizar-el-pensamiento-en-la-ia.html" class="card-link">Leer más →</a>
+                    </div>
+
+                    <div class="blog-entry card" data-categories="Innovación">
+                        <div class="card-meta">
+                            <span>15 de diciembre, 2024</span>
+                            <span>•</span>
+                            <span>Eduardo Levy Yeyati y Soledad Guilera</span>
+                        </div>
+                        <h3 class="card-title"><a href="posts/deepseek-atajo-a-la-soberanía-tecnológica-o-nueva-dependencia.html">DeepSeek: ¿atajo a la soberanía tecnológica o nueva dependencia?</a></h3>
+                        <p class="card-excerpt">Eduardo Levy Yeyati, director académico del CEPE, y Soledad Guilera, profesora de la Escuela de Gobierno, escribieron sobre las oportunidades y los desafíos que plantea DeepSeek...</p>
+                        <a href="posts/deepseek-atajo-a-la-soberanía-tecnológica-o-nueva-dependencia.html" class="card-link">Leer más →</a>
+                    </div>
+
+                    <div class="blog-entry card" data-categories="Educación">
+                        <div class="card-meta">
+                            <span>26 de marzo, 2023</span>
+                            <span>•</span>
+                            <span>Sebastián Ceria y Daniel Yankelevich</span>
+                        </div>
+                        <h3 class="card-title"><a href="posts/conocimiento-portatil-futuro.html">Inteligencia artificial. ¿El conocimiento portátil del futuro?</a></h3>
+                        <p class="card-excerpt">En 1950, Alan Turing creó el primer método para comprobar si una computadora podía responder y reaccionar como lo haría un humano: el test de Turing...</p>
+                        <a href="posts/conocimiento-portatil-futuro.html" class="card-link">Leer más →</a>
+                    </div>
+
+                    <div class="blog-entry card" data-categories="Gobernanza">
+                        <div class="card-meta">
+                            <span>15 de marzo, 2023</span>
+                            <span>•</span>
+                            <span>Daniel Yankelevich</span>
+                        </div>
+                        <h3 class="card-title"><a href="posts/ia-generativa-cuestion-politica.html">Inteligencia artificial generativa: una cuestión política</a></h3>
+                        <p class="card-excerpt">En las últimas semanas se habló sobre el uso de inteligencia artificial generativa. El chatGPT3 para textos o Dall-e y Stability para imágenes...</p>
+                        <a href="posts/ia-generativa-cuestion-politica.html" class="card-link">Leer más →</a>
+                    </div>
+
+                    <div class="blog-entry card" data-categories="Gobernanza">
+                        <div class="card-meta">
+                            <span>1 de febrero, 2023</span>
+                            <span>•</span>
+                            <span>Daniel Yankelevich</span>
+                        </div>
+                        <h3 class="card-title"><a href="posts/del-asombro-a-la-politica.html">Del asombro a la política: la inteligencia artificial sube al estrado</a></h3>
+                        <p class="card-excerpt">La inteligencia artificial (IA) nos vuelve a asombrar: el ChatGPT -un modelo que chatea con el usuario y ofrece respuestas extraordinarias...</p>
+                        <a href="posts/del-asombro-a-la-politica.html" class="card-link">Leer más →</a>
+                    </div>
+
+                </div>
+
+                <aside class="blog-filters">
+                    <h4 class="filter-title">Categorías</h4>
+                    <button class="filter-btn active" data-category="all">Todas</button>
+                    <button class="filter-btn" data-category="Gobernanza">Gobernanza</button>
+                    <button class="filter-btn" data-category="Adopción">Adopción</button>
+                    <button class="filter-btn" data-category="Educación">Educación</button>
+                    <button class="filter-btn" data-category="Innovación">Innovación</button>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <img src="NADIA-banners.png" alt="CEPE y Fundar" class="footer-logo">
+                <p class="footer-text">Nodo Argentino de Inteligencia Artificial (nadIA)</p>
+                <p class="footer-text">Una iniciativa de <a href="https://www.utdt.edu/listado_contenidos.php?id_item_menu=25278" target="_blank">CEPE-Di Tella</a> y <a href="https://fund.ar/" target="_blank">Fundar</a></p>
+                <p class="footer-text" style="margin-top: 1rem; font-size: 0.85rem; opacity: 0.7;">Optimización web por <a href="https://mgobeaalcoba.github.io/" target="_blank" rel="noopener noreferrer">Mariano Gobea Alcoba</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+    </button>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
