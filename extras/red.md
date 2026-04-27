@@ -1,4 +1,4 @@
-Hoy en día, miles de profesionales latinoamericanos protagonizan  la innovación en IA desde las más destacadas universidades, empresas tecnológicas e instituciones políticas mundiales. Viven, estudian y producen conocimiento valioso en el exterior, pero tienen el deseo de contribuir al desarrollo sostenible e inclusivo en sus países, así como compartir agendas, saberes y redes de advocacy con los profesionales locales.
+Hoy en día, miles de profesionales latinoamericanos protagonizan la innovación en IA desde las más destacadas universidades, empresas tecnológicas e instituciones políticas mundiales. Viven, estudian y producen conocimiento valioso en el exterior, pero tienen el deseo de contribuir al desarrollo sostenible e inclusivo en sus países, así como compartir agendas, saberes y redes de advocacy con los profesionales locales.
 
 Sin embargo, esos talentos latinoamericanos que hoy viven afuera no cuentan con canales ni espacios estructurados para llevar adelante esa vinculación con los ecosistemas locales. Nuestro objetivo es construir una Red de profesionales de la diáspora en IA para que el conocimiento generado fuera de la región contribuya al desarrollo en el continente. Esta iniciativa nace para construir esa comunidad.
 
@@ -6,10 +6,10 @@ Sin embargo, esos talentos latinoamericanos que hoy viven afuera no cuentan con 
 
 La inteligencia artificial está transformando de forma acelerada la economía mundial y América Latina tiene un rol muy marginal en el proceso. Mientras los actores globales compiten por el liderazgo en la carrera de la IA y se apresuran por desarrollar infraestructura estratégica y definir sus reglas, la participación de la región está limitada por barreras sistémicas:
 
-- Déficit de capacidades técnicas
-- Políticas fragmentadas
-- Débil coordinación institucional
-- Falta de debate público.
+-   Déficit de capacidades técnicas
+-   Políticas fragmentadas
+-   Débil coordinación institucional
+-   Falta de debate público.
 
 De continuar en esta senda, la región quedará relegada a un mero consumidor de IA en un mercado digital diseñado por otros. El riesgo para América Latina es claro: perder una oportunidad histórica y profundizar las desigualdades económicas y sociales existentes.
 
@@ -25,12 +25,13 @@ No se trata meramente de un intercambio académico, sino de potenciar sinergias 
 
 ### La Red de la Diáspora Latinoamericana en IA impulsa una conversación pública basada en tres principios:
 
-- Pensar la IA desde el Sur Global;
-- Promover un debate orientado hacia propuestas concretas de uso y desarrollo;
-- Asumir que la IA debe estar al servicio del desarrollo de la Argentina y América Latina, fortaleciendo sus capacidades productivas, educativas y estatales.
+-   Pensar la IA desde el Sur Global;
+-   Promover un debate orientado hacia propuestas concretas de uso y desarrollo;
+-   Asumir que la IA debe estar al servicio del desarrollo de la Argentina y América Latina, fortaleciendo sus capacidades productivas, educativas y estatales.
 
 ## De Argentina para América Latina
-En su primer año, el proyecto se abocará a reunir a diasporantes y expertos argentinos en espacios de discusión sobre ejes estratégicos al desarrollo de la IA. Durante el segundo año, se escalará la experiencia para conformar la Red de la Diáspora Latinoamericana en IA, a partir  de la alianza estratégica con otras instituciones de América Latina y el Caribe.
+
+En su primer año, el proyecto se abocará a reunir a diasporantes y expertos argentinos en espacios de discusión sobre ejes estratégicos al desarrollo de la IA. Durante el segundo año, se escalará la experiencia para conformar la Red de la Diáspora Latinoamericana en IA, a partir de la alianza estratégica con otras instituciones de América Latina y el Caribe.
 
 ## Capítulo 1: Red de la Diáspora Argentina en IA (2026)
 
@@ -38,21 +39,21 @@ Realizaremos una convocatoria a actores locales y actores de la diáspora del pa
 
 Estos grupos son:
 
-**Innovación, investigación y desarrollo de la IA.** Liderado por el dr. Daniel Yankelevich, investigador principal de Fundar, especializado en datos e IA.
+1.  **Innovación, investigación y desarrollo de la IA:** *Liderado por el [dr. Daniel Yankelevich](https://fund.ar/equipo/d-yankelevich/), investigador principal de Fundar, especializado en datos e IA.*
 
-Se debatirá en qué segmentos de la cadena de valor de la inteligencia artificial puede Argentina generar innovación y capturar valor real, más allá de una adopción de tecnologías desarrolladas en otros países.
+    Se debatirá en qué segmentos de la cadena de valor de la inteligencia artificial puede Argentina generar innovación y capturar valor real, más allá de una adopción de tecnologías desarrolladas en otros países.
 
-**Adopción de IA: el futuro de la empresa y el trabajo.** Liderado por el dr. Darío Judzik, decano Ejecutivo y profesor con dedicación exclusiva de la Escuela de Gobierno de la UTDT.
+2.  **Adopción de IA: el futuro de la empresa y el trabajo:** *Liderado por el [dr. Darío Judzik](https://www.utdt.edu/ver_contenido.php?id_contenido=17971&id_item_menu=28948), decano Ejecutivo y profesor con dedicación exclusiva de la Escuela de Gobierno de la UTDT.*
 
-Trabajará sobre la incorporación de la IA en empresas y organizaciones, y de qué manera esta adopción transforma la productividad y los trabajos.
+    Trabajará sobre la incorporación de la IA en empresas y organizaciones, y de qué manera esta adopción transforma la productividad y los trabajos.
 
-**IA y educación.** Liderado por la mg. Guadalupe Dorna, directora de la Maestría en Políticas Públicas de la Escuela de Gobierno de la UTDT.
+3.  **IA y educación:** *Liderado por la [mg. Guadalupe Dorna](https://www.utdt.edu/ver_contenido.php?id_contenido=19144&id_item_menu=29572), directora de la Maestría en Políticas Públicas de la Escuela de Gobierno de la UTDT.*
 
-Discutirá cómo integrar la inteligencia artificial en el sistema educativo de manera que mejore los procesos y resultados de aprendizaje.
+    Discutirá cómo integrar la inteligencia artificial en el sistema educativo de manera que mejore los procesos y resultados de aprendizaje.
 
-**Gobernanza de la IA.** Liderado por la dra. Julia Pomares, directora capítulo LATAM de GIDE, profesora invitada de la Escuela de Gobierno de la UTDT, experta en políticas públicas, transformación digital y gobernanza y adopción de IA.
+4.  **Gobernanza de la IA:** *Liderado por la [dra. Julia Pomares](https://www.unesco.org/ethics-ai/es/ai-ethics-experts-without-borders/julia-pomares), directora [capítulo LATAM de GIDE](https://thegide.org/gide-latin-america/), profesora invitada de la Escuela de Gobierno de la UTDT, experta en políticas públicas, transformación digital y gobernanza y adopción de IA.*
 
-Deliberará sobre las herramientas de política pública, marcos normativos y capacidades estatales que deberían promover países como Argentina para posicionarse de manera activa en la cadena global de valor de la IA y orientar su desarrollo y uso hacia objetivos deseables.
+    Deliberará sobre las herramientas de política pública, marcos normativos y capacidades estatales que deberían promover países como Argentina para posicionarse de manera activa en la cadena global de valor de la IA y orientar su desarrollo y uso hacia objetivos deseables.
 
 ## Capítulo 2: Red de la Diáspora Latinoamericana en IA
 
