@@ -2,9 +2,9 @@
 title: "Encuesta nacional sobre adopción de IA en pequeñas y medianas empresas argentinas"
 description: "Argentina (2026)"
 ---
+**[⬇️Descargar](../extras/nadia_encuesta_pymesARG2026.pdf)**. 
 
 Argentina tiene una oportunidad —y un riesgo— con la inteligencia artificial. La oportunidad: una tecnología de propósito general que puede mejorar procesos, reducir ineficiencias y ampliar capacidades en empresas que hoy operan al límite. El riesgo: que su adopción quede concentrada en quienes ya llevan ventaja, profundizando brechas que el aparato productivo argentino arrastra hace décadas. De eso se trata esta encuesta.
-
 
 ### **Sobre la investigación**
 
@@ -23,7 +23,7 @@ Esta encuesta, realizada por nad**IA**, con el apoyo del BID y de la Fundación 
 
 **El 41,6% de las empresas encuestadas ya utiliza al menos una tecnología de IA**, en un proceso reciente y acelerado, concentrado sobre todo en 2024 y 2025. Pero la imagen es heterogénea: **la brecha entre sectores es amplia, la mayoría de las firmas adoptantes se encuentran en estadios tempranos, y los indicadores de gobernanza y capacidades internas siguen siendo muy bajos**. La distancia entre adoptar una herramienta y convertirla en una mejora productiva sostenida sigue siendo, para muchas empresas, el desafío pendiente.
 
-**Para profundizar más, descarga el informe completo [⬇️Descargar]()**. 
+
 
 
 <footer class="site-footer">
