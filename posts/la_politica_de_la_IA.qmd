@@ -7,6 +7,10 @@ categories: ['Gobernanza']
 draft: false
 ---
 
+<div class="blog-layout">
+
+<div class="blog-content">
+
 > Tres gobiernos consecutivos elaboraron planes, crearon mesas de trabajo y prometieron centros de excelencia. Ninguno lo concretó. Mientras el mundo acelera su apuesta por la inteligencia artificial y los países vecinos ejecutan políticas concretas, Argentina perfecciona el arte del anuncio.
 
 En 2017 un equipo de Google publicó Attention Is All You Need, el paper que hizo despegar a la IA moderna. La arquitectura Transformer que describía resolvió un problema central: permitir que las máquinas leyeran una frase entera en lugar de ir palabra por palabra, captando el contexto real del lenguaje. Casi todo lo que hoy llamamos inteligencia artificial está construido sobre esa idea: desde los programas de desarrollo de código o generación de imágenes hasta las herramientas de traducción automática. GPT significa exactamente eso: Generative Pre-trained Transformer.
@@ -51,6 +55,60 @@ Hasta ahora la medida con más impacto de LLA es el desfinanciamiento universita
 
 En definitiva, la derecha argentina tiene una receta para promover esta actividad -menos Estado, más mercado- que choca contra la evidencia. Para convertirse en un hub de IA no alcanza con desregular: necesitás universidades que formen profesionales, investigadores, agencias que financien I+D, regulaciones que atraigan inversión. El Estado tiene que jugar varios roles para compensar lo que el mercado no provee ni resuelve, y eso es lo que el libertarismo no puede admitir sin contradecirse.
 
-::: blog-source-link
+<div class="blog-source-link">
 Publicado originalmente en <a href="https://www.eldiplo.org/notas-web/la-politica-de-la-ia-en-el-pantano/">eldiplo.org</a>
-:::
+</div>
+
+</div>
+
+<div class="blog-sidebar">
+
+<div class="blog-filters" id="blog-filters">
+  <button class="blog-filter-btn active" data-category="all">Todas</button>
+  <button class="blog-filter-btn" data-category="Gobernanza">Gobernanza</button>
+  <button class="blog-filter-btn" data-category="Adopción">Adopción</button>
+  <button class="blog-filter-btn" data-category="Educación">Educación</button>
+  <button class="blog-filter-btn" data-category="Innovación">Innovación</button>
+</div>
+
+</div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filterButtons = document.querySelectorAll('.blog-filter-btn');
+  filterButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const category = this.getAttribute('data-category');
+      window.location.href = '../blog.html?categoria=' + encodeURIComponent(category);
+    });
+  });
+  const categoryElements = document.querySelectorAll('.quarto-category');
+  categoryElements.forEach(cat => {
+    cat.style.cursor = 'pointer';
+    cat.style.textDecoration = 'underline';
+    cat.addEventListener('click', function() {
+      const category = this.textContent.trim();
+      window.location.href = '../blog.html?categoria=' + encodeURIComponent(category);
+    });
+  });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const headings = document.querySelectorAll('.quarto-title-meta-heading');
+  headings.forEach(heading => {
+    if (heading.textContent.trim() === 'Author') {
+      heading.textContent = 'Autor';
+    } else if (heading.textContent.trim() === 'Published') {
+      heading.textContent = 'Publicado';
+    }
+  });
+});
+</script>
+
+<footer class="site-footer">
+  <img src="../NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">
+</footer>

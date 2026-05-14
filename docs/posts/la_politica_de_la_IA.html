@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-7021af145535a4c44c72d4393e8f1e25.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-974d01ce0b71e65b39e38eb9a838184e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -166,6 +166,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="blog-layout">
+<div class="blog-content">
 <blockquote class="blockquote">
 <p>Tres gobiernos consecutivos elaboraron planes, crearon mesas de trabajo y prometieron centros de excelencia. Ninguno lo concretó. Mientras el mundo acelera su apuesta por la inteligencia artificial y los países vecinos ejecutan políticas concretas, Argentina perfecciona el arte del anuncio.</p>
 </blockquote>
@@ -198,9 +200,51 @@ ul.task-list li input[type="checkbox"] {
 <div class="blog-source-link">
 <p>Publicado originalmente en <a href="https://www.eldiplo.org/notas-web/la-politica-de-la-ia-en-el-pantano/">eldiplo.org</a></p>
 </div>
-
-
 </section>
+</div>
+<div class="blog-sidebar">
+<div id="blog-filters" class="blog-filters">
+<p><button class="blog-filter-btn active" data-category="all">Todas</button> <button class="blog-filter-btn" data-category="Gobernanza">Gobernanza</button> <button class="blog-filter-btn" data-category="Adopción">Adopción</button> <button class="blog-filter-btn" data-category="Educación">Educación</button> <button class="blog-filter-btn" data-category="Innovación">Innovación</button></p>
+</div>
+</div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filterButtons = document.querySelectorAll('.blog-filter-btn');
+  filterButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const category = this.getAttribute('data-category');
+      window.location.href = '../blog.html?categoria=' + encodeURIComponent(category);
+    });
+  });
+  const categoryElements = document.querySelectorAll('.quarto-category');
+  categoryElements.forEach(cat => {
+    cat.style.cursor = 'pointer';
+    cat.style.textDecoration = 'underline';
+    cat.addEventListener('click', function() {
+      const category = this.textContent.trim();
+      window.location.href = '../blog.html?categoria=' + encodeURIComponent(category);
+    });
+  });
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const headings = document.querySelectorAll('.quarto-title-meta-heading');
+  headings.forEach(heading => {
+    if (heading.textContent.trim() === 'Author') {
+      heading.textContent = 'Autor';
+    } else if (heading.textContent.trim() === 'Published') {
+      heading.textContent = 'Publicado';
+    }
+  });
+});
+</script>
+<footer class="site-footer">
+<img src="../NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">
+</footer>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
