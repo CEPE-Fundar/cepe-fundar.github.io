@@ -1,6 +1,6 @@
 ---
 title: "Inteligencia artificial generativa: una cuestión política"
-description: "Artículo sobre inteligencia artificial"
+description: "Qué es cada cosa, qué están haciendo los Estados en el mundo y propuestas para trabajar el tema en Argentina."
 date: "2023-03-15"
 author: "Daniel Yankelevich"
 categories: ['Gobernanza']

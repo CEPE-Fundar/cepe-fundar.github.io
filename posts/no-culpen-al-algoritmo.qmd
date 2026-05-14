@@ -1,6 +1,6 @@
 ---
 title: "No culpen al algoritmo: ¿cómo regular la inteligencia artificial en un mundo demasiado humano?"
-description: "Artículo sobre inteligencia artificial"
+description: "No es lo mismo regular la IA que regular su uso"
 date: "2025-08-10"
 author: "Daniel Yankelevich"
 categories: ['Gobernanza']

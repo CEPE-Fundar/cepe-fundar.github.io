@@ -1,6 +1,6 @@
 ---
 title: "Inteligencia artificial. ¿El conocimiento portátil del futuro?"
-description: "Artículo sobre inteligencia artificial"
+description: "Cuando Alan Turing desarrolló su test, la perspectiva de diseñar una computadora que pudiera superarlo era lejana. Hoy, en cambio, la sorpresa es que la computadora no supere el test."
 date: "2023-03-26"
 author: "Sebastián Ceria y Daniel Yankelevich"
 categories: ['Educación']

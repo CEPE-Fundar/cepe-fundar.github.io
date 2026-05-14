@@ -1,0 +1,108 @@
+---
+title: "“Salto institucional”: la clave que llevará a las Pymes argentinas a maximizar el potencial de la IA"
+description: "Si bien el 41,6% ya utiliza al menos una herramienta de IA, solo un 3,3% dispone de una política formal escrita, según un estudio; la importancia de contar con marcos de gobernanza"
+date: "2026-05-13"
+author: "Victoria Menghini, Daniel Yankelevich, Macarena Santolaria, Alejandro Avenburg"
+categories: ["Adopción"]
+draft: false
+---
+
+<div class="blog-layout">
+
+<div class="blog-content">
+
+
+La inteligencia artificial (IA) dejó de ser un concepto lejano para convertirse en una realidad dentro de miles de organizaciones alrededor del mundo. Basta con leer unos pocos titulares o posteos en LinkedIn para ver cómo esta tecnología está redefiniendo no solo roles y equipos enteros de trabajo, sino también la manera en que las empresas toman decisiones.
+
+La Argentina no es ajena a esta transformación: un 41,6% de las Pymes ya utiliza al menos una herramienta de IA y la mitad de aquellas que todavía no la incorporaron consideran probable hacerlo en los próximos 24 meses. Los datos surgen de una reciente investigación realizada por el Nodo Argentino de Inteligencia Artificial (nadIA), una iniciativa del Centro para la Evaluación de Políticas basadas en Evidencia (CEPE) de la Universidad Torcuato Di Tella y Fundar, centro de innovación en políticas de desarrollo.
+
+“Hay un primer contacto masivo con la tecnología, pero todavía estamos lejos de una integración que transforme procesos productivos”, afirman a LA NACION Daniel Yankelevich, Alejandro Avenburg y Macarena Santolaria, del Área de Gobierno Inteligente de Fundar.
+
+En detalle, gran parte de las Pymes adoptaron esta tecnología entre 2024 y 2025. Para los expertos, la irrupción de ChatGPT fue un factor clave: “La tecnología dominante es la IA generativa de texto, que está presente en el 78% de las empresas usuarias, y la función más frecuente es marketing y ventas”.
+
+Sin embargo, aún hay un largo camino por recorrer. Los números hablan por sí solos: el 95% no incorporó personal especializado, el 78% no tiene presupuesto diferenciado y el 72% se maneja con pautas informales.
+
+Además, solo un 46,4% puso en marcha capacitaciones. “Estamos frente a una adopción muy reciente y todavía superficial”, señalan.
+
+Ahora bien, ¿por qué la IA es una herramienta indispensable para las Pymes?Yankelevich, Avenburg y Santolaria explican que la IA no solo modifica la forma en que las empresas producen, sino también los mercados en los que compiten. “Como otras tecnologías de propósito general, puede transformar la demanda de bienes y servicios, habilitar nuevos modelos de negocio y acelerar la generación de nuevos productos”, precisan.
+
+En este sentido, advierten que las firmas que no implementen IA en sus procesos correrán el riesgo de “perder competitividad, quedar rezagadas o ver erosionada su posición en el mercado”.
+
+## Innovar: ventajas y desafíos
+
+El sector de software y servicios informáticos lidera esta nueva ola tecnológica, con una tasa de adopción del 85,4%. En concreto, se destaca por un uso intensivo de tecnologías complejas, como machine learning, análisis de datos y automatización de decisiones.
+
+Por su parte, los sectores industriales cuentan con una menor adopción y utilizan, principalmente, herramientas generativas aplicadas a funciones de apoyo, como marketing, ventas o administración. “Las funciones de apoyo tienen un umbral de entrada más bajo: se pueden resolver con herramientas generativas de acceso gratuito o de bajo costo, sin necesidad de integrar datos internos ni reorganizar procesos”, apuntan desde Fundar.
+
+Para lograr un mayor y mejor uso de la IA, los expertos subrayan la importancia de implementar modelos de aprendizaje automático, así como también herramientas vinculadas a la identificación de objetos en imágenes y la automatización robótica de procesos. “Esas aplicaciones son las que permiten pensar usos más directamente vinculados con la producción”, indican.
+
+El proceso puede resultar difícil, ya que se debe modernizar buena parte de la infraestructura existente. Sin embargo, los expertos aventuran un panorama alentador: “Muchas Pymes ya tienen la infraestructura base como computación en la nube, herramientas de comunicación y software de gestión, lo que funciona como plataforma habilitante. El desafío es acompañarlas en el paso siguiente".
+
+## Salto institucional
+
+El estudio también revela que apenas un 4% de las empresas cuenta con un presupuesto específico para IA y solo un 3,3% dispone de una política formal escrita. “Tenemos una adopción que depende de la iniciativa individual de algunos empleados, sin marco institucional que la sostenga, la escale ni la evalúe”, analizan desde Fundar.
+
+Por este motivo, la investigación distingue a las PyMEs en dos categorías: líderes y optimizadoras. “Lo que las separa no es un salto tecnológico, sino un salto institucional. La evidencia internacional sugiere que, sin esas inversiones complementarias en gobernanza, capacitación y reorganización de los procesos de trabajo, difícilmente se materialicen los impactos en productividad, porque no hay un aprendizaje organizacional a gran escala sobre qué funciona y qué no”, apuntan.
+
+Entonces, ¿qué se necesita para pasar de la experimentación al “aprovechamiento efectivo”? Como primera medida, Yankelevich, Avenburg y Santolaria señalan que será fundamental derribar la falta de experiencia, conocimiento y de personal calificado. “Las empresas que ya entraron descubren que lo difícil no es acceder a la herramienta, sino saber qué hacer con ella y contar con la gente capaz de implementarlo”, detallan.
+
+En este escenario, las políticas públicas cobran un rol esencial. De hecho, el 53% de las empresas pide asistencia técnica directa a PyMEs. “Sin instrumentos que acompañen la adopción —capacitación, asistencia técnica, financiamiento e infraestructura digital— muchas PyMEs difícilmente puedan transformar usos aislados en capacidades organizacionales", concluyen.
+
+
+<div class="blog-source-link">
+Publicado originalmente en <a href="https://www.lanacion.com.ar/economia/IA/salto-institucional-la-clave-que-llevara-a-las-pymes-argentinas-a-maximizar-el-potencial-de-la-ia-nid13052026/">futurIA - LA NACIÓN/a>
+</div>
+
+</div>
+
+<div class="blog-sidebar">
+
+<div class="blog-filters" id="blog-filters">
+  <button class="blog-filter-btn active" data-category="all">Todas</button>
+  <button class="blog-filter-btn" data-category="Gobernanza">Gobernanza</button>
+  <button class="blog-filter-btn" data-category="Adopción">Adopción</button>
+  <button class="blog-filter-btn" data-category="Educación">Educación</button>
+  <button class="blog-filter-btn" data-category="Innovación">Innovación</button>
+</div>
+
+</div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filterButtons = document.querySelectorAll('.blog-filter-btn');
+  filterButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const category = this.getAttribute('data-category');
+      window.location.href = '../blog.html?categoria=' + encodeURIComponent(category);
+    });
+  });
+  const categoryElements = document.querySelectorAll('.quarto-category');
+  categoryElements.forEach(cat => {
+    cat.style.cursor = 'pointer';
+    cat.style.textDecoration = 'underline';
+    cat.addEventListener('click', function() {
+      const category = this.textContent.trim();
+      window.location.href = '../blog.html?categoria=' + encodeURIComponent(category);
+    });
+  });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const headings = document.querySelectorAll('.quarto-title-meta-heading');
+  headings.forEach(heading => {
+    if (heading.textContent.trim() === 'Author') {
+      heading.textContent = 'Autor';
+    } else if (heading.textContent.trim() === 'Published') {
+      heading.textContent = 'Publicado';
+    }
+  });
+});
+</script>
+
+<footer class="site-footer">
+  <img src="../NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">
+</footer>

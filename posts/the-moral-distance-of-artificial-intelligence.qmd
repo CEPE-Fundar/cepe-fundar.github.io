@@ -1,6 +1,6 @@
 ---
 title: "The Moral Distance of Artificial Intelligence"
-description: "The Moral Distance of Artificial Intelligence"
+description: "You can save one person from certain death: your mother, who works as a cleaning lady, or a scientist on the verge of discovering a cure for cancer. Choose."
 date: "2026-02-21"
 author: "Eduardo Levy Yeyati"
 categories: ['Gobernanza']

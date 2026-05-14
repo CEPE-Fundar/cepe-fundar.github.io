@@ -1,6 +1,6 @@
 ---
 title: "La política de la IA en el pantano"
-description: "ARGENTINA BUSCA POSICIONARSE FRENTE A LA IA"
+description: "Argentina busca posicionarse frente a la IA"
 date: "2026-05-07"
 author: "Juan O'Farrell"
 categories: ['Gobernanza']

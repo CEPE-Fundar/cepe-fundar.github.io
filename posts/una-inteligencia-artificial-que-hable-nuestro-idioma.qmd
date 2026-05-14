@@ -1,6 +1,6 @@
 ---
 title: "Una inteligencia artificial que hable nuestro idioma"
-description: "Una inteligencia artificial que hable nuestro idioma"
+description: "Dime cómo hablas y te diré de dónde vienes, podría susurrar un algoritmo."
 date: "2025-09-10"
 author: "Eduardo Levy Yeyati"
 categories: ['Gobernanza', 'Innovación']

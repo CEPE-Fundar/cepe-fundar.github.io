@@ -1,6 +1,6 @@
 ---
 title: "Deepfakes, campañas sucias y un decálogo que parece sátira, pero denuncia algo muy real"
-description: "Artículo sobre inteligencia artificial"
+description: "En Fundar venimos trabajando desde hace años sobre el uso de IA y sus riesgos. Alertamos sobre su potencial uso para manipular, en particular en contexto de elecciones."
 date: "2025-06-15"
 author: "Daniel Yankelevich"
 categories: ['Gobernanza']
@@ -10,7 +10,7 @@ categories: ['Gobernanza']
 
 <div class="blog-content">
 
-El año pasado hubo al menos tres casos en que un alumno de secundaria publicó videos íntimos de sus compañeras. El tema trascendió porque, en todos los casos, no eran exactamente ellas. Eran videos editados usando inteligencia artificial (IA) llamados deepfakes. Esto no lo hace gracioso ni menos grave: las chicas fueron efectivamente muy expuestas y agredidas, y aunque rápidamente se supo que eran fake, no quita que sea un problema serio que esos videos sigan dando vueltas por internet.
+El año pasado hubo al menos tres casos en que un alumno de secundaria publicó videos íntimos de sus compañeras. El tema trascendió porque, en todos los casos, no eran exactamente ellas.Eran videos editados usando inteligencia artificial (IA) llamados deepfakes. Esto no lo hace gracioso ni menos grave: las chicas fueron efectivamente muy expuestas y agredidas, y aunque rápidamente se supo que eran fake, no quita que sea un problema serio que esos videos sigan dando vueltas por internet.
 
 Este es un problema serio. El gobierno de Trump, al que nadie puede acusar de woke o progresista, impulsó una ley llamada “Take It Down Act” (Ley Elimínalo, en español): desde el 19 de mayo de 2025 es delito federal en Estado Unidos publicar a sabiendas representaciones visuales íntimas de personas sin su consentimiento. Esto incluye imágenes reales y deepfakes, y tiene implicancias directas sobre las formas de hacer campañas políticas.
 

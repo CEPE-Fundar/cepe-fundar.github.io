@@ -1,6 +1,6 @@
 ---
 title: "Inteligencia artificial sin ciencia ficción: más allá de los chatbots, hay mucho por hacer"
-description: "Artículo sobre inteligencia artificial"
+description: "Más que preocuparnos por frenar el ascenso inminente y universal de la IA, en Argentina la principal preocupación debería ser su baja implementación en las empresas y en particular en las pymes."
 date: "2025-07-06"
 author: "Macarena Santolaria"
 categories: ['Innovación']
