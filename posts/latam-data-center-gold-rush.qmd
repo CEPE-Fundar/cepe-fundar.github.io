@@ -1,0 +1,128 @@
+---
+title: "Latin America’s Data Center Gold Rush: Myth and Reality"
+description: "Governments need to define rules of engagement to secure the best terms from the current investment boom"
+date: "2026-06-9"
+author: "Eduardo Levy Yeyati"
+categories: ["Innovación", "Gobernanza"]
+draft: false
+---
+
+<div class="blog-layout">
+
+<div class="blog-content">
+
+
+The numbers speak for themselves: Google is building an $850 million data center in Uruguay; Amazon committed $5 billion to a new cloud region in Mexico; and Microsoft is investing $2.7 billion in cloud and AI infrastructure in Brazil. From Montevideo to Querétaro, data center providers are expanding capacity, governments are rolling out tax incentives, and multilateral banks are publishing frameworks to help countries “capture the data center opportunity.”
+
+The opportunity is real. So is the risk of misreading it.
+
+Latin America and the Caribbean are emerging as credible destinations for digital infrastructure investment for reasons that go beyond hype. The region’s electricity matrix is a structural asset: Brazil generates nearly 90% of its electricity from renewables, and companies like Equinix, Ascenty and Scala have expanded aggressively in São Paulo for exactly that reason.
+
+Hyperscalers—the massive-scale cloud providers running virtual machines across a global network of data centers—under ESG pressure need clean electrons; the region has them. Geopolitics adds a second tailwind: As governments and multinationals reassess concentration risk in critical digital infrastructure, capital flows toward politically aligned alternatives. In Mexico, nearshoring adds a third driver: Manufacturers relocating closer to the U.S. border need local data processing, and Querétaro has become a corridor for that demand.
+
+And the demand is structural rather than cyclical. Cloud adoption in Latin America has surged: Fintech, e-commerce, and AI applications require local compute to reduce latency. For decades, the absence of that infrastructure forced regional companies to rely on servers in North America or Europe, at a premium in both cost and reliability. The build-out fills a real gap.
+
+The region currently hosts more than 500 data centers with roughly 1,450 megawatts of installed capacity—less than a third of Northern Virginia’s 4,900. Annual investment is expected to double from 5 billion in 2023 to nearly 10 billion by 2029, with total capacity projected to nearly double by 2035. Brazil alone hosts 37.3% of the region’s data centers, followed by Chile and Mexico (11.6% each), Argentina (8.2%), and Colombia (7.1%).
+
+But not all data centers are the same. Hyperscale facilities are built and operated by large technology companies (Amazon, Google, Microsoft) to run their own services. Colocation centers are built by specialized real estate operators who lease space and power to tenants that may be located anywhere in the world. The distinction matters enormously for local economic impact.
+
+### The multiplier that doesn’t travel
+
+Where the narrative starts to fray is in the employment claims. The prevailing narrative in policy circles projects multipliers drawn from the Northern Virginia ecosystem—the world’s largest data center market—onto Latin America. The arithmetic generates impressive numbers that have made their way into policy documents and investment pitches across the hemisphere.
+
+Those multipliers embed decades of accumulated ecosystem: fiber installers, network operations centers, managed service providers, IT contractors orbiting a critical mass of hyperscale campuses in a region that was already a global technology hub. They cannot simply be assumed to transfer.
+
+More fundamentally, the projections conflate two very different types of facilities. New research from the Brookings Institution, based on roughly 770 U.S. data center facilities linked to county-level employment data from 2003 to 2024, finds that the employment effects depend critically on facility type. Hyperscale campuses—built by Amazon, Google or Microsoft to run their own workloads—generate meaningful spillovers: Counties that receive them see information-sector employment grow by 22% over five to six years, with wages rising 3 to 4%. Colocation facilities—built by landlords who lease space to remote tenants—generate far fewer local effects. A bank in New York renting a server rack in Bogotá does not hire IT staff in Bogotá.
+
+The scale of the distortion matters. Naive estimates that fail to correct for preexisting growth trends in counties that attracted investment may overstate employment effects by a factor of three.
+
+There is a further wrinkle. Even hyperscale spillovers require density to materialize. Counties with a single facility see modest gains in total employment but no significant growth in the information sector. Counties with four or more facilities see a 23% increase in information-sector employment. The ecosystem takes time and scale to develop. It is a long-term bet, not an installation.
+
+### The power problem is nodal, not national
+
+Latin America’s renewable energy advantage is a regional aggregate. What data centers need is firm, reliable power delivered to a specific grid node. The two are not the same.
+
+Installed data center capacity in Mexico surged from 115 megawatts in 2024 to nearly 280 megawatts last year—a 140% increase in a single year. Yet the Mexican Data Center Association is now warning that projects are being redirected to Brazil and Chile because energy planning has not kept pace. The constraint is not the aggregate scarcity of renewables; it is the mismatch between where clean power is generated and where data centers need to be located, compounded by transmission infrastructure that cannot bridge the gap at the pace the industry demands.
+
+Countries cannot point to a clean energy matrix and assume investment will follow. The enabling infrastructure—upgraded substations, new transmission lines, streamlined permitting—requires sustained public investment and coordination that most governments in the region are only beginning to organize. Countries that resolve this before their neighbors will have a durable advantage; those that don’t will find themselves outbid by their own ambitions.
+
+### Infrastructure without sovereignty
+
+Strip away the construction activity, and the central development question comes into focus: Who benefits from this infrastructure over time?
+
+Data centers are capital-intensive and operationally lean by design. The value they enable—cloud computing, AI inference, e-commerce, streaming—accrues primarily to the companies running the workloads, most of which are headquartered outside the region. Latin America provides the land, the energy, the connectivity, and in several cases the tax incentives. The returns, for the most part, flow elsewhere.
+
+Brazil’s REDATA regime, introduced late last year, offers tax breaks on equipment imports that Fitch Ratings estimates could translate into billions in savings for investors. That is a legitimate tool to attract investment. But its logic depends on whether it crowds in local ecosystem development. The Brookings Institution data offer a sobering benchmark: In counties dominated by colocation facilities, tax incentives account for 62% of total construction investment—subsidies matter most precisely where spillovers are smallest. Virginia’s data-center tax exemption cost the state $1.6 billion in fiscal year 2025 alone. The region’s governments may want to understand those tradeoffs before designing their own incentive regimes.
+
+### Two bargains
+
+For Brazil, Mexico and Chile—where digital markets are deep enough and IT ecosystems dense enough to plausibly attract hyperscale investment—the priority is negotiating the terms of that investment: power-delivery commitments that benefit local households and industry, supplier and workforce targets with measurable benchmarks, access conditions for domestic universities, startups, and public institutions. Hyperscale can generate local spillovers; the question is whether governments secure meaningful commitments in exchange for the subsidies and grid priority they offer.
+
+For the rest of the region, a different path deserves more attention. Estonia pioneered the model after a major cyberattack in 2007 exposed its dependence on domestic infrastructure. In 2017, it signed a bilateral agreement with Luxembourg to host government registries in a legally protected facility abroad under Estonian jurisdiction. Monaco followed the same logic in 2021. Bahrain has gone further still, positioning itself as a host hub—enacting legislation in 2018 that allows foreign parties to store data on Bahraini soil under their own domestic jurisdiction rather than Bahrain’s. The model is now spreading: smaller economies becoming sovereign users of shared infrastructure hosted elsewhere, and larger ones becoming trusted hosts for their neighbors’ critical data.
+
+A Latin American adaptation could see smaller economies accessing shared hubs in São Paulo, Santiago or Bogotá under agreed governance frameworks—as sovereign participants rather than clients of foreign operators. The distinction matters more than it first appears. If concentration in a few regional nodes is already inevitable—and the investment flows suggest it is—the choice is whether that concentration produces dependency or integration.
+
+For countries that view data centers as part of a broader AI strategy, the logic runs even deeper. It means investing in what markets will not produce on their own: curated public data infrastructure—health records, land registries, tax data, satellite imagery—that local AI applications require to be locally relevant. A data center without that layer is compute-for-hire. With it, it could be something more.
+
+Across all three models, governments will fare best if they are prepared. That means establishing clear regulatory frameworks, grid-access conditions, and data-governance requirements before the hyperscalers arrive. It also means knowing what they offer: land, energy, permits, and tax treatment. And what they require in return: local hiring targets, workforce training commitments, domestic cloud access for universities and startups, and data-governance obligations. Competing on incentives and hoping development follows is how resource booms become missed opportunities.
+
+The region has been here before—extracting a resource at scale while the value chain sits elsewhere. Infrastructure without sovereignty is a service contract.
+
+
+<div class="blog-source-link">
+Publicado originalmente en <a href="https://www.americasquarterly.org/article/latin-americas-data-center-gold-rush-myth-and-reality/">Americas QUARTERLY</a>
+</div>
+
+</div>
+
+<div class="blog-sidebar">
+
+<div class="blog-filters" id="blog-filters">
+  <button class="blog-filter-btn active" data-category="all">Todas</button>
+  <button class="blog-filter-btn" data-category="Gobernanza">Gobernanza</button>
+  <button class="blog-filter-btn" data-category="Adopción">Adopción</button>
+  <button class="blog-filter-btn" data-category="Educación">Educación</button>
+  <button class="blog-filter-btn" data-category="Innovación">Innovación</button>
+</div>
+
+</div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filterButtons = document.querySelectorAll('.blog-filter-btn');
+  filterButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const category = this.getAttribute('data-category');
+      window.location.href = '../blog.html?categoria=' + encodeURIComponent(category);
+    });
+  });
+  const categoryElements = document.querySelectorAll('.quarto-category');
+  categoryElements.forEach(cat => {
+    cat.style.cursor = 'pointer';
+    cat.style.textDecoration = 'underline';
+    cat.addEventListener('click', function() {
+      const category = this.textContent.trim();
+      window.location.href = '../blog.html?categoria=' + encodeURIComponent(category);
+    });
+  });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const headings = document.querySelectorAll('.quarto-title-meta-heading');
+  headings.forEach(heading => {
+    if (heading.textContent.trim() === 'Author') {
+      heading.textContent = 'Autor';
+    } else if (heading.textContent.trim() === 'Published') {
+      heading.textContent = 'Publicado';
+    }
+  });
+});
+</script>
+
+<footer class="site-footer">
+  <img src="../NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">
+</footer>
