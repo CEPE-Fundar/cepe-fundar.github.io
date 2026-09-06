@@ -45,8 +45,8 @@ Nuestro objetivo es que la inteligencia artificial se convierta en un motor de p
 |   Mariana Barrera   | Juan Pablo Ruiz Nicolini |
 |    Darío Judzik     |    Agustina Bendersky    |
 |   Guadalupe Dorna   |      Juan O'Farrell      |
-|   Soledad Guilera   |      Mariana Kunst       |
-|    Lucía Recondo    |      Alejandro Avenburg  |
+|   Soledad Guilera   |      Alejandro Avenburg  |
+|    Lucía Recondo    |      Juan Gabriel Juara  |
 |    Malena Cabado    |    Macarena Santolaria   |
 
 <footer class="site-footer">

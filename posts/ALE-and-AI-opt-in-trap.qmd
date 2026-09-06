@@ -1,0 +1,144 @@
+---
+title: "Autonomous Legal Entities and the AI Opt-In Trap"
+description: "Emiliano Kargieman’s proposal for Autonomous Legal Entities (ALE) is a serious attempt to escape AI governance’s false binary: either unregulated deployment or centralized global regulation."
+date: "2026-06-08"
+author: "Eduardo Levy Yeyati"
+categories: ["Gobernanza"]
+draft: false
+---
+
+::: blog-layout
+::: blog-content
+Emiliano Kargieman's proposal for Autonomous Legal Entities (ALE) is a serious attempt to escape AI governance's false binary: either unregulated deployment or centralized global regulation. His framing through Elinor Ostrom's commons-governance architecture is elegant, and the case for Argentina as a first-mover is well-argued.
+
+It would be stronger if it engaged more directly with the economics literature on opt-in regulatory containers. There are two critical boundary conditions that such frameworks must satisfy: they work only when the outside option is sufficiently unattractive that relevant actors prefer to enter the regime, and when the private market (here, insurers) can credibly price the risks it purports to contain.
+
+## What ALEs propose 
+
+An ALE is a legally chartered organization whose operational decisions are substantially delegated to machine systems, with human oversight at defined governance layers. The core mechanisms are:
+
+· a charter that specifies operational scope, permitted assets, jurisdictions, and decision-making limits;
+
+· a steward council that actively reviews and calibrates the ALE's boundaries in real time; distributed kill-switch authority so no single actor can disable oversight;
+
+· mandatory liability insurance that forces private risk pricing; and
+
+· auditable decision logs so every consequential action is transparent.
+
+Thus, the ALE itself becomes the legally liable entity---it owns assets and can be sued---but liability is capped by mandatory insurance.
+
+The appeal is straightforward: autonomous agents operating across markets need legal containers that acknowledge their operational autonomy without inflicting unlimited personal liability on their creators. Limited liability corporations did this for human enterprise in the 19th century. ALEs would do it for machine operations in the 21st.
+
+The key question is: does the participation structure work?
+
+## The opt-in trap 
+
+An ALE is opt-in. operators can choose whether to charter or to operate outside the framework. Operating outside is legally risky but unclear: California's AB 316 removed one defense (that the AI acted alone), but didn't create a comprehensive liability regime. So operators face vague legal exposure, not a clear choice between two systems.
+
+A good starting point is the Segerson-Miceli logic from the voluntary environmental agreements literature: voluntary programs only work when there's a real threat of mandatory regulation in the background: firms opt in because the alternative (being forced into stricter rules) is worse; without that threat, participation is optional, and optional participation attracts the wrong actors.
+
+When we apply this logic to the ALE proposal, two possible selection dynamics emerge:
+
+· If chartering is costly and rigorous, the framework attracts disproportionately the safest operators: those with tight risk controls, careful monitoring, or domain-specific regulation. They opt in to gain legal personality and credibility. Marginal operators---those benefiting from gray zones---stay out. Result: you govern the already-disciplined, and exclude those most needing governance.
+
+· If chartering is cheap, the "TRUSTe dynamic" emerges: low-quality sites sought TRUSTe certification to overcome reputational deficits; high-quality sites didn't need it. Certified sites ended up looking more untrustworthy than uncertified ones. Similarly, if ALEs become a low-cost legitimacy signal, the framework risks attracting marginal operators seeking credibility rather than disciplined ones seeking clarity.
+
+Either way, opt-in alone does not discipline the operators most in need of discipline.
+
+**The missing outside threat**
+
+The solution exists. In the voluntary environmental agreements literature, participation worked when firms faced a credible threat of mandatory regulation. The bargain was explicit: comply voluntarily on these terms or face stricter mandatory terms. Without that credible threat, participation was discretionary, and discretionary participation attracted the wrong types.
+
+Argentina's current setup lacks this threat. DNU 70/2023 and the Ley de Bases created a deregulatory environment precisely to avoid mandatory rules. The political momentum is toward less regulation. There is no credible legislative threat in the background. Instead, there is a sandbox: try ALEs voluntarily; if they work, scale them; if not, operate outside.
+
+That is pro-innovation. It is also vulnerable to adverse selection.
+
+## A market solution: private gatekeepers 
+
+There is a third path between pure voluntarism and mandatory law.
+
+ALE participation could become effectively mandatory if critical infrastructure gatekeepers---insurers, cloud providers, payment networks, exchanges, app stores, government procurement---refuse to deal with non-chartered autonomous agents above defined risk thresholds. That preserves the pro-innovation frame while making non-participation genuinely costly without requiring universal legislation.
+
+The outside threat would come not from the state alone, but from market access: banks won't clear your transactions, clouds won't host your systems, insurers won't cover operations, unless you are chartered. That is less blunt than universal mandate but potentially more effective, because it operates where risk concentrates.
+
+(For Argentina, this means designing Phase 1---Kargieman's proposed initial sandbox with 5-10 pilot ALEs in bounded sectors---not just as regulatory testing, but as proof of concept for private-sector gatekeeping. Can insurance markets, cloud providers, and financial institutions credibly commit to ALE-only underwriting above risk thresholds? If yes, the participation problem largely solves itself.)
+
+## Digression: the risk mispricing trap 
+
+There is also a hidden contingency on private insurance markets.
+
+Early-stage ALEs have no actuarial history. Insurers will systematically misprice---underestimating tail risk, overestimating their pricing power. When they do, the liability cap becomes contingent on the public sector stepping in as reinsurer. If machine risk proves fundamentally uninsurable in private markets (shared dependencies, correlated failures across multiple ALEs), then the entire framework rests on a public backstop it was designed to avoid.
+
+This is indeed a second structural problem behind the proposal: insurance markets may not yet have enough actuarial data to price ALE risk accurately, especially correlated failures from shared infrastructure dependencies. If so, insurers will systematically misprice---underpricing tail risk, overpricing normal operations. And, with insurance mispriced, the liability cap becomes illusory: early ALEs will face artificially low premiums (because insurers lack data), so reserves will be inadequate. When failures occur, losses exceed coverage. The public becomes the de facto insurer.
+
+This is not a design flaw that can be fixed with better data: machine risk may be fundamentally uninsurable in a private market. Catastrophic-event coverage will likely require public reinsurance anyway. If so, the liability cap is contingent on government backing---which means the framework isn't truly private gatekeeping; it's public insurance disguised as private discipline.
+
+(Financial economists may find this familiar: risk mispricing + contingent private liabilities through implicit public insurance have been behind all the varieties of financial crises in history---and their huge social welfare costs.)
+
+## Public-beneficiary capture 
+
+One governance risk deserves acknowledgment. Public-beneficiary structures may create capture risks. A sovereign wealth fund with beneficial stake in an ALE operating energy dispatch or agricultural optimization has incentive to influence the steward council toward scope expansion and reduced enforcement. The political-economy literature on state-owned enterprises and development banks shows this dynamic is persistent. The trade-off might still be worth it for the anti-corruption benefits of transparent machine governance in public operations, but the risk is not trivial.
+
+**Takeaways**
+
+None of this argues against implementing the ALE framework in Argentina. Autonomous agents are already being deployed across markets without a legal framework that clearly matches operational autonomy to liability, insurance, and governance. Kargieman's proposal is a serious attempt to address that gap without resorting to either unregulated deployment or centralized global control.
+
+But the test should not ask merely whether a country can create a new legal form; it should also ask whether that contract can attract the operators that most need governance, generate credible insurance and audit markets, and make non-participation sufficiently unattractive to shift selection toward the right operator types---so as to truly contain hidden social and fiscal costs.
+
+The promise of ALEs is legal personality embedded in an incentive structure that makes responsibility harder to evade. That structure requires either a credible legislative threat in the background, or a market-based gatekeeping coalition that makes the outside option costly.
+
+Without one of those, the framework will govern the already-disciplined and miss the operators most in need of governance.
+
+::: blog-source-link
+Publicado originalmente en <a href="https://humanfactormovement.substack.com/p/autonomous-legal-entities-and-the?utm_source=profile&utm_medium=reader2">Substack</a>
+:::
+:::
+
+::: blog-sidebar
+::: {#blog-filters .blog-filters}
+<button class="blog-filter-btn active" data-category="all">Todas</button> <button class="blog-filter-btn" data-category="Gobernanza">Gobernanza</button> <button class="blog-filter-btn" data-category="Adopción">Adopción</button> <button class="blog-filter-btn" data-category="Educación">Educación</button> <button class="blog-filter-btn" data-category="Innovación">Innovación</button>
+:::
+:::
+:::
+
+```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filterButtons = document.querySelectorAll('.blog-filter-btn');
+  filterButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const category = this.getAttribute('data-category');
+      window.location.href = '../blog.html?categoria=' + encodeURIComponent(category);
+    });
+  });
+  const categoryElements = document.querySelectorAll('.quarto-category');
+  categoryElements.forEach(cat => {
+    cat.style.cursor = 'pointer';
+    cat.style.textDecoration = 'underline';
+    cat.addEventListener('click', function() {
+      const category = this.textContent.trim();
+      window.location.href = '../blog.html?categoria=' + encodeURIComponent(category);
+    });
+  });
+});
+</script>
+```
+```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const headings = document.querySelectorAll('.quarto-title-meta-heading');
+  headings.forEach(heading => {
+    if (heading.textContent.trim() === 'Author') {
+      heading.textContent = 'Autor';
+    } else if (heading.textContent.trim() === 'Published') {
+      heading.textContent = 'Publicado';
+    }
+  });
+});
+</script>
+```
+<footer class="site-footer">
+
+<img src="../NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;"/>
+
+</footer>

@@ -1,0 +1,101 @@
+---
+title: "Sociedades automatizadas: ¿para qué?"
+description: "Qué cambia con el proyecto de sociedades automatizadas y por qué alerta a expertos: sin controles claros, los dueños podrían culpar a la IA y esquivar responsabilidades."
+date: "2026-08-14"
+author: "Daniel Yankelevich"
+categories: ['Gobernanza']
+draft: false
+---
+
+<div class="blog-layout">
+
+<div class="blog-content">
+
+Supongamos que hoy Ud y yo abrimos una empresa. La inscribimos, elegimos un rubro, pero no contratamos a nadie. En cambio, armamos la empresa con agentes de IA, que cubren todos los roles. ¿Podemos hacerlo? Sí, podemos. Ninguna regulación nos impide usar las herramientas que queramos. Podemos nombrar a estos agentes "gerente.md" si queremos.
+
+¿Qué cambiaría, entonces, con una ley para sociedades automatizadas, que está impulsando el gobierno en el Congreso? Una regulación así sólo tiene sentido si limita o licúa la responsabilidad humana sobre los agentes. Si, el día de mañana, el dueño de la empresa puede decir: "Ah, no, eso fue el agente de IA". En otras palabras, tal como está planteada hoy, es una ley de impunidad. 
+
+Y no hablamos de un futuro distópico: hoy la lista de casos y ejemplos de agentes de IA causando problemas en el mundo es enorme. Recientemente en Australia un agente personal al que se le pidió reservar un turno en un gimnasio "lo antes posible" descubrió que podía cancelar turnos de otras personas para conseguir el lugar deseado, y obviamente lo hizo. Los agentes optimizan los recursos para lograr un objetivo, que algún ser humano les puso. 
+
+Cuando empezamos a referirnos a la IA como un "quién" en lugar de un "qué", estamos fabricando un escudo de impunidad para los humanos que la crean, la usan y deberían controlarla. Decimos: "El algoritmo decidió denegar el crédito", "La IA diagnosticó mal al paciente", o "El sistema discriminó al candidato". 
+
+La IA no decide nada, sólo ejecuta los parámetros definidos por un equipo de ingenieros. Antropomorfizar el software permite que las corporaciones y los gobiernos tercericen la culpa. Si tratamos a la máquina como a un agente independiente, perdemos de vista a la mano humana que usa la herramienta. 
+
+Por otro lado, la discusión debería considerar experiencias pasadas. Emiliano Kargieman, empresario argentino, en su exposición en el Congreso del pasado miércoles 11, dijo que es la primera vez que se discute la idea de empresas 100% automatizadas. Esto no es así. Hay un librito de Cambridge University Press & Assessment de 2021 que habla del tema. Vitalik Buterin, cofundador de Ethereum, habló de las "DAOs" (decentralized autonomous organizations, otro tipo de entidades relacionadas que viven en #blockchain y ejecutan contratos inteligentes) en 2013.
+
+De hecho, las DAOs son una realidad desde 2021: en el estado de Wyoming se pueden registrar dos clases de DAOs (DAO LLCs for-profit y DUNAs para ONGs). Esto quiere decir que Ud puede armar una serie de contratos inteligentes, en Ethereum por ejemplo, nombrar un agente (persona real o jurídica) local (necesario para recibir demandas y correo oficial) y poner a funcionar esta sociedad en modo automático.
+
+No hay cientos de miles de DAOs registradas ni explotó su desarrollo —como dijo Kargieman que podría pasar en Argentina con esta iniciativa—, pero hay algunas. Ejemplos notables son CityDAO, para proyectos de propiedad colectiva de tierras, que compró y administra algo más de 20 has usando blockchain; y KPOP, una DAO que gestiona una comunidad de fans de K-pop (con votaciones, eventos, un token propio, etc.). 
+
+En otras jurisdicciones está discusión se viene dando desde hace tiempo, sea por una mayor penetración de la IA, por el uso de vehículos autónomos u otros motivos. Un ejemplo es California, que en octubre de 2025 sacó el Assembly Bill 316 (AB 316), una prohibición explícita de usar en la defensa el argumento de "la IA lo hizo". 
+
+Además, la discusión propuesta en el Congreso es notable por lo que omite discutir:  el para qué. ¿Para qué el gobierno quiere aprobar una ley de sociedades automatizadas que promueve la creación de entidades como estas? 
+
+Como señala muy claramente el economista Eduardo Levy Yeyati en su Substack, la iniciativa sólo tiene sentido si hay incentivos para participar del régimen propuesto. 
+
+Estos incentivos pueden ser, por ejemplo, que la amenaza regulatoria en caso de no entrar sea grande. Otra posibilidad es que una regulación adecuada permita a las aseguradoras ofrecer pólizas sobre riesgos de la IA. 
+
+Para esto, es necesario cuantificar estos riesgos y eso requiere un trabajo detallado y una regulación muy prolija. Podría ser que el mismo mercado requiera este régimen para encuadrar riesgos y certificaciones de control. Para que esto ocurra, una regulación debería considerar a la vez la creación de las entidades y establecer los controles y cuidados necesarios. Esto también podría facilitar la tarea de las aseguradoras. Pero eso no es lo que se está discutiendo hoy.
+
+Por cierto, lo que se discute hoy en el Congreso también omite preguntarse cuántos ingresos, trabajo o bienestar puede generar este régimen. Más allá de las expresiones de deseo, no parece haber argumentos que indiquen que la incorporación de estas sociedades potencie el desarrollo, pueda crear empleo o realmente genere ingresos fiscales. En otras palabras, cómo esta nueva ley puede sentar las bases para que esta nueva tecnología le sirva a la población.
+
+La IA es una herramienta poderosa que puede tener impacto en el desarrollo. La forma de lograr que esto ocurra no va a ser con declaraciones fastuosas, eliminando responsabilidades o con una legislación vacía de sentido, sino trabajando en la incorporación de la tecnología en la producción y para el beneficio de todos.
+
+
+<div class="blog-source-link">
+Publicado originalmente en <a href="https://eleconomista.com.ar/tech/sociedades-automatizadas-para-que-n97439">El Economista</a>
+</div>
+
+</div>
+
+<div class="blog-sidebar">
+
+<div class="blog-filters" id="blog-filters">
+  <button class="blog-filter-btn active" data-category="all">Todas</button>
+  <button class="blog-filter-btn" data-category="Gobernanza">Gobernanza</button>
+  <button class="blog-filter-btn" data-category="Adopción">Adopción</button>
+  <button class="blog-filter-btn" data-category="Educación">Educación</button>
+  <button class="blog-filter-btn" data-category="Innovación">Innovación</button>
+</div>
+
+</div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filterButtons = document.querySelectorAll('.blog-filter-btn');
+  filterButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const category = this.getAttribute('data-category');
+      window.location.href = '../blog.html?categoria=' + encodeURIComponent(category);
+    });
+  });
+  const categoryElements = document.querySelectorAll('.quarto-category');
+  categoryElements.forEach(cat => {
+    cat.style.cursor = 'pointer';
+    cat.style.textDecoration = 'underline';
+    cat.addEventListener('click', function() {
+      const category = this.textContent.trim();
+      window.location.href = '../blog.html?categoria=' + encodeURIComponent(category);
+    });
+  });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const headings = document.querySelectorAll('.quarto-title-meta-heading');
+  headings.forEach(heading => {
+    if (heading.textContent.trim() === 'Author') {
+      heading.textContent = 'Autor';
+    } else if (heading.textContent.trim() === 'Published') {
+      heading.textContent = 'Publicado';
+    }
+  });
+});
+</script>
+
+<footer class="site-footer">
+  <img src="../NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">
+</footer>
