@@ -1,11 +1,10 @@
 ---
-title: ""
-
+format:
+  html:
+    include-in-header:
+      text: |
+        <script>
+          window.location.replace("nosotros.html");
+        </script>
+        <meta http-equiv="refresh" content="0; url=nosotros.html">
 ---
-
-<div style="text-align: center; margin-bottom: 2rem;">
-  <a href="https://www.utdt.edu/inscripcion_evento_agenda.php?id_evento_agenda=14145&id_item_menu=25202&utm_source=UTDT&utm_medium=calendario&utm_campaign=nadIASummit2026%7CIA:delaadopci%F3nalimpacto" target="_blank" rel="noopener noreferrer">
-    <img src="NadIA-Summit.png" alt="NADIA" style="max-width: 100%; height: auto;">
-  </a>
-</div>
-
