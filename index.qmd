@@ -1,10 +1,34 @@
 ---
-format:
-  html:
-    include-in-header:
-      text: |
-        <script>
-          window.location.replace("nosotros.html");
-        </script>
-        <meta http-equiv="refresh" content="0; url=nosotros.html">
+title: "nadIA Summit 2026"
+description: "**El viernes 2 de octubre, en la Universidad Di Tella, el nadIA Summit - organizado por el CEPE Di Tella y Fundar- reunió a más de cien personas de empresas, del sector público, de organismos internacionales y de la academia.** La pregunta de fondo era cómo armar una agenda propia para usar la inteligencia artificial (IA) como herramienta de desarrollo. El panel de cierre, a cargo de **Eduardo Levy Yeyati** y **Daniel Yankelevich**, ordenó la discusión en torno a una idea que vale la pena desplegar: antes de la frontera tecnológica hay un territorio que casi nadie está relevando."
 ---
+<div style="text-align: center; margin-bottom: 2rem;">
+  <img src="/extras/ely_dy.jpg" alt="NADIA Summit" style="max-width: 100%; height: auto;">
+</div>
+
+
+El debate global suele dibujarse con dos trazos. Por un lado, quienes aceleran, con la promesa de una superinteligencia; por otro, quienes piden frenar, con advertencias catastróficas. Si bien ambos reconocen la magnitud del cambio, los dos miran hacia el borde del mapa. En el panel se señaló que, detrás del pánico existencial, también hay intereses comerciales (empresas que buscan barreras de entrada y Estados que hagan de reaseguro), pero que tampoco sirve imaginar un paraíso desregulado: sin reglas claras de responsabilidad, las empresas de telemedicina, crédito o seguros no pueden asegurarse ni operar. Y los riesgos de los sistemas avanzados existen (un agente no necesita ser consciente para hacer daño, alcanza con que optimice mal una instrucción), lo que justifica pruebas, entornos controlados y supervisión.
+
+## A nuestra escala
+
+Cabe preguntarnos entonces qué hay a escala propia. La imagen que mejor lo resume surgió en ese mismo panel: oficinas públicas del interior donde la gestión diaria descansa en papel, en registros informales o en una base de datos guardada en un pendrive. Sobre esa base cuesta pensar en las sociedades de agentes autónomos que hoy se promocionan (que, por lo demás, pueden resolverse con una SRL común mientras haya socios gerentes humanos que respondan ante la ley). Lo urgente es más modesto: inventariar los datos del Estado, definir quién accede a cuáles y poder conectarlos. Y responder una pregunta previa, la de para qué se quiere la IA y en qué eslabón de la cadena se quiere estar; ofrecer energía barata y beneficios fiscales para atraer un centro de datos fue calificado, en el diagnóstico del panel, como una estrategia pobre.
+
+Las exposiciones previas apuntaron en el mismo sentido. Laura Álvarez Modernel, de AWS, propuso partir de un problema concreto (una startup del sistema de salud de Brasil que usa IA para leer recetas y derivar los casos críticos a los farmacéuticos). Mariano Casero, de Finnegans, planteó que un cliente del agro no puede esperar a una máquina con el camión parado en la puerta.Christian Asinelli, de CAF, señaló que la IA ayuda a recuperar terreno cuando viene acompañada de infraestructura e integración regional. Son variantes de una misma distancia: la que separa probar una herramienta de rediseñar un proceso.
+
+Esa distancia explica por qué las proyecciones sobre empleo son tan frágiles. A la pregunta de cuántos trabajos sustituirá la IA en la Argentina, la respuesta honesta es que nadie lo sabe. Los estudios internacionales parten de descripciones formales de las ocupaciones y, por ahora, no hay evidencia para sostener que retraten bien un mercado laboral como el nuestro. Como se planteó durante la jornada, sin contar a los empleados públicos, el empleo formal ronda entre el 20% y el 30% de la fuerza laboral de América Latina, y como los informales cobran menos, reemplazarlos con IA no siempre resulta más barato. Para esa economía de "toderos" (personas que hacen varias cosas a la vez, como las caracteriza un [trabajo reciente de Sur Futuro](https://www.sur-futuro.org/americalatina-inteligente-inteligencia-artificial-futuro-del-trabajo)), la IA podría ser, eventualmente, una ayuda para hacer mejor lo que ya hacen, algo que ningún estudio mide hoy. De ahí el pedido de generar datos propios. Las [encuestas de adopción en individuos y PyMEs realizadas por nadIA](https://nadia.ar/investigacion.html) trabajan sobre ello.
+
+El riesgo para la Argentina parece ser más de precarización que de desempleo: cuando se pierden buenos puestos, la gente pasa a trabajos peor pagos, inestables y sin protección, de modo que un shock tecnológico podría degradar el trabajo sin que la tasa de desocupación se mueva. A largo plazo habrá que discutir formas de distribución distintas del salario, con una condición previa: para repartir ganancias de productividad, primero hay que generarlas.
+
+La otra restricción es la escala. Salvo Brasil y quizás México, ningún país de la región la tiene, de modo que habrá que compartir insumos y dejar de lado diferencias políticas. Si cada país compite por atraer centros de datos, el resultado es una carrera a la baja y un enclave: se cede tierra y energía para después importar los modelos y el software que otros desarrollan con ese cómputo. La alternativa es negociar en bloque y exigir contratos que reserven [capacidad de cómputo para uso local, como ya hace Brasi](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/plano-brasileiro-de-inteligencia-artificial)l. Hay antecedentes, como el Programa Argentino-Brasileño de Informática de los años ochenta, cuando no se podían importar supercomputadoras, según relató Yankelevich.
+
+Un hilo conductor de la jornada es que estos problemas se parecen más a una falta de mapa que a una falta de tecnología. Antes de apostar a un eslabón de la cadena conviene saber con qué se cuenta: qué datos tiene el Estado, cuántas personas hacen qué trabajo, cuánta capacidad de cómputo existe y quién la usa.
+
+Queda, claro, la pregunta del eslabón. La Argentina integra dos clubes exclusivos, el de la energía atómica y el de los satélites, y puede preguntarse si hay lugar para uno propio de la IA. Competir en la frontera cuesta miles de millones de dólares, pero se pueden tomar modelos como los chinos, mejorarlos y desarrollar aplicaciones. Entre los ejemplos que circularon en el panel estuvo [Latam-GPT](https://www.latamgpt.org/), impulsado por el CENIA de Chile.
+
+La frontera, por ahora, la dibujan otros. El terreno propio todavía está a tiempo de ser relevado, con fondos, datos disponibles y espacios de prueba regulatorios (sandboxes) donde las empresas puedan ensayar con reglas más flexibles. Con más tiempo (y con los datos propios que hoy faltan) habrá que volver sobre cada uno de estos puntos.
+
+
+<footer class="site-footer">
+  <img src="NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">
+</footer>
+

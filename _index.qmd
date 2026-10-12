@@ -1,0 +1,10 @@
+---
+format:
+  html:
+    include-in-header:
+      text: |
+        <script>
+          window.location.replace("nosotros.html");
+        </script>
+        <meta http-equiv="refresh" content="0; url=nosotros.html">
+---
