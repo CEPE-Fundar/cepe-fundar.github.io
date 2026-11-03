@@ -68,6 +68,104 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<!-- Estilos de la red de expertos de nadIA: tarjeta CTA (_cta-red.html) y botón "Ser parte" del navbar -->
+<!-- Van acá y no en styles.css para que nunca se vean sin estilo por caché del navegador -->
+<style>
+  /* Botón "Ser parte" del navbar */
+  .navbar a.nav-link[href*="docs.google.com/forms"] {
+    margin-left: 0.5rem;
+    padding: 0.4rem 1.1rem !important;
+    border-radius: 999px;
+    background-color: #2E27F3;
+    color: #ffffff !important;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .navbar a.nav-link[href*="docs.google.com/forms"]:hover,
+  .navbar a.nav-link[href*="docs.google.com/forms"]:focus {
+    background-color: #98D161 !important;
+    color: #1a1a1a !important;
+  }
+
+  @media (max-width: 991.98px) {
+    .navbar a.nav-link[href*="docs.google.com/forms"] {
+      display: inline-block;
+      margin: 0.5rem 0 0;
+    }
+  }
+
+  /* Tarjeta CTA */
+  .cta-red {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 4rem 0 0;
+    padding: 2rem 2.25rem;
+    border-radius: 12px;
+    background-color: #2E27F3;
+    color: #ffffff;
+  }
+
+  .cta-red .cta-red-texto p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.88);
+  }
+
+  .cta-red .cta-red-texto p.cta-red-etiqueta {
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #98D161;
+  }
+
+  .cta-red h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .cta-red a.cta-red-boton {
+    flex-shrink: 0;
+    padding: 0.75rem 1.5rem;
+    border-radius: 999px;
+    border-bottom: none;
+    background-color: #ffffff;
+    color: #2E27F3;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .cta-red a.cta-red-boton:hover,
+  .cta-red a.cta-red-boton:focus {
+    background-color: #98D161;
+    color: #1a1a1a;
+  }
+
+  .cta-red + .site-footer {
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    .cta-red {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.25rem;
+      padding: 1.5rem;
+    }
+
+    .cta-red h2 {
+      font-size: 1.25rem;
+    }
+  }
+</style>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -129,6 +227,12 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLScOCj0PsBA6-61wAcX5kQmCC97kHtEozEk27NSAh8OLmh2xOA/viewform" target="_blank"> 
+<span class="menu-text">Ser parte</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -192,28 +296,50 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
-<!-- Call to action global: Red de expertos en IA de nadIA (se incluye en todas las páginas vía _quarto.yml) -->
+<!-- Call to action global: Red de expertos en IA de nadIA (se incluye en todas las páginas vía _quarto.yml; estilos en _cta-red-estilos.html) -->
+
 <aside class="cta-red" id="cta-red" aria-labelledby="cta-red-titulo">
+
   <div class="cta-red-texto">
+
     <p class="cta-red-etiqueta">Red de expertos</p>
+
     <h2 id="cta-red-titulo">Sumate a la red de expertos en IA de nadIA</h2>
-    <p>¿Trabajás, investigás o desarrollás inteligencia artificial? Postulate para formar parte de la red y contribuir al desarrollo de la región.</p>
+
+    <p>¿Trabajás, investigás o desarrollás inteligencia artificial? Postulate para formar parte de la red y contribuir al desarrollo de Argentina.</p>
+
   </div>
+
   <a class="cta-red-boton" href="https://docs.google.com/forms/d/e/1FAIpQLScOCj0PsBA6-61wAcX5kQmCC97kHtEozEk27NSAh8OLmh2xOA/viewform" target="_blank" rel="noopener noreferrer">Quiero sumarme →</a>
+
 </aside>
+
 <script>
+
   // Ubica el módulo al final del contenido, antes del banner del footer si la página lo tiene
+
   (function () {
+
     var cta = document.getElementById("cta-red");
+
     var footer = document.querySelector("main .site-footer");
+
     var main = document.querySelector("main.content") || document.querySelector("main");
+
     if (footer) {
+
       footer.parentNode.insertBefore(cta, footer);
+
     } else if (main) {
+
       main.appendChild(cta);
+
     }
+
   })();
+
 </script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

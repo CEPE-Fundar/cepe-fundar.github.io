@@ -3,6 +3,61 @@ title: "Prensa"
 description: "Notas y coberturas en medios sobre el nadIA Summit 2026."
 ---
 
+<!-- Estilos de la lista acá (y no en styles.css) para que nunca se vea sin ellos por caché del navegador -->
+<style>
+  .content .prensa-lista {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0;
+  }
+
+  .prensa-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .prensa-item:first-child {
+    padding-top: 0;
+  }
+
+  .prensa-item p {
+    margin: 0;
+  }
+
+  .prensa-meta {
+    margin-bottom: 0.35rem !important;
+    font-size: 0.85rem;
+    color: var(--secondary-color);
+  }
+
+  .prensa-medio {
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+  }
+
+  .prensa-item a.prensa-titulo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--primary-color);
+    border-bottom: none;
+    text-decoration: none;
+  }
+
+  .prensa-item a.prensa-titulo:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+  }
+
+  .prensa-autor {
+    margin-top: 0.35rem !important;
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+  }
+</style>
+
 <!-- Para sumar una nota, copiá un bloque <li> y completá fecha, medio, link, título y autor (ordenadas de la más reciente a la más antigua) -->
 <ul class="prensa-lista">
   <li class="prensa-item">

@@ -34,11 +34,16 @@ website:
           #   text: "Fotos"
           # - href: summit/2026/documentos.qmd
           #   text: "Documentos"
+    right:
+      - href: https://docs.google.com/forms/d/e/1FAIpQLScOCj0PsBA6-61wAcX5kQmCC97kHtEozEk27NSAh8OLmh2xOA/viewform
+        text: "Ser parte"
+        target: _blank
 
 format:
   html:
     theme: cosmo
     css: styles.css
+    include-in-header: _cta-red-estilos.html
     include-after-body: _cta-red.html
     toc: false
     lang: es
