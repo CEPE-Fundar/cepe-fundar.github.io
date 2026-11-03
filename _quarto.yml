@@ -29,9 +29,9 @@ website:
             text: "Summit 2026"
           - href: summit/2026/prensa.qmd
             text: "Prensa"
+          - href: summit/2026/fotos.qmd
+            text: "Fotos"
           # Para sumar material, agregá ítems acá (crear el .qmd en summit/2026/):
-          # - href: summit/2026/fotos.qmd
-          #   text: "Fotos"
           # - href: summit/2026/documentos.qmd
           #   text: "Documentos"
     right:
