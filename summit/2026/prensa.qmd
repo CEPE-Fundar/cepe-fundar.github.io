@@ -1,0 +1,35 @@
+---
+title: "Prensa"
+description: "Notas y coberturas en medios sobre el nadIA Summit 2026."
+---
+
+<!-- Para sumar una nota, copiá un bloque <li> y completá fecha, medio, link, título y autor (ordenadas de la más reciente a la más antigua) -->
+<ul class="prensa-lista">
+  <li class="prensa-item">
+    <p class="prensa-meta"><span class="prensa-medio">Ámbito Financiero</span> · 8 de octubre de 2026</p>
+    <a class="prensa-titulo" href="https://www.ambito.com/tecnologia/nadia-summit-la-necesidad-pensar-la-ia-la-experiencia-regional-n6331547" target="_blank" rel="noopener noreferrer">NadIA Summit: la necesidad de pensar la IA desde la experiencia regional</a>
+  </li>
+  <li class="prensa-item">
+    <p class="prensa-meta"><span class="prensa-medio">Letra P</span> · 6 de octubre de 2026</p>
+    <a class="prensa-titulo" href="https://www.letrap.com.ar/letrae/economia-digital/inteligencia-artificial-especialistas-plantearon-dudas-la-insercion-argentina-la-cadena-global-n5427151" target="_blank" rel="noopener noreferrer">Inteligencia artificial: especialistas plantearon dudas sobre la inserción de Argentina en la cadena global</a>
+    <p class="prensa-autor">Por Irina Sternik</p>
+  </li>
+  <li class="prensa-item">
+    <p class="prensa-meta"><span class="prensa-medio">El Economista</span> · 6 de octubre de 2026</p>
+    <a class="prensa-titulo" href="https://eleconomista.com.ar/economia/la-ia-ya-factura-argentina-pero-deja-afuera-45-trabajadores-informales-n98664" target="_blank" rel="noopener noreferrer">La IA ya factura en Argentina, pero deja afuera al 45% de los trabajadores informales</a>
+    <p class="prensa-autor">Por Lucila Bianchi</p>
+  </li>
+  <li class="prensa-item">
+    <p class="prensa-meta"><span class="prensa-medio">El Cronista</span> · 6 de octubre de 2026</p>
+    <a class="prensa-titulo" href="https://www.cronista.com/economia-politica/nadia-summit-la-argentina-no-puede-avanzar-sola-en-inteligencia-artificial/" target="_blank" rel="noopener noreferrer">nadIA Summit: la Argentina no puede avanzar sola en inteligencia artificial</a>
+    <p class="prensa-autor">Por Catalina Jordán</p>
+  </li>
+  <li class="prensa-item">
+    <p class="prensa-meta"><span class="prensa-medio">Canal AR</span> · 6 de octubre de 2026</p>
+    <a class="prensa-titulo" href="https://www.canal-ar.com.ar/34542-nadIA-Summit-por-que-la-Argentina-necesita-una-estrategia-propia-de-inteligencia-artificial.html" target="_blank" rel="noopener noreferrer">nadIA Summit: por qué la Argentina necesita una estrategia propia de inteligencia artificial</a>
+  </li>
+</ul>
+
+<footer class="site-footer">
+  <img src="/NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">
+</footer>

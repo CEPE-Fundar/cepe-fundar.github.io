@@ -316,8 +316,130 @@ hr {
   margin: 0 auto;
 }
 
+/* Prensa */
+.content .prensa-lista {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+}
+
+.prensa-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.prensa-item:first-child {
+  padding-top: 0;
+}
+
+.prensa-item p {
+  margin: 0;
+}
+
+.prensa-meta {
+  margin-bottom: 0.35rem !important;
+  font-size: 0.85rem;
+  color: var(--secondary-color);
+}
+
+.prensa-medio {
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.prensa-item a.prensa-titulo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--primary-color);
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.prensa-item a.prensa-titulo:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.prensa-autor {
+  margin-top: 0.35rem !important;
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+}
+
+/* Call to action: Red de expertos */
+.cta-red {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 4rem 0 0;
+  padding: 2rem 2.25rem;
+  border-radius: 12px;
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.cta-red-texto p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.cta-red .cta-red-etiqueta {
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--hover-navbar);
+}
+
+.cta-red h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.cta-red a.cta-red-boton {
+  flex-shrink: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  border-bottom: none;
+  background-color: #ffffff;
+  color: var(--accent-color);
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.cta-red a.cta-red-boton:hover,
+.cta-red a.cta-red-boton:focus {
+  background-color: var(--hover-navbar);
+  color: var(--primary-color);
+}
+
+.cta-red + .site-footer {
+  margin-top: 2rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
+  .cta-red {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: 1.5rem;
+  }
+
+  .cta-red h2 {
+    font-size: 1.25rem;
+  }
+
   .quarto-container {
     padding: 2rem 1rem;
     max-width: 100% !important;

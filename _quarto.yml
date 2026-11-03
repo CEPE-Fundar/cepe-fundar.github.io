@@ -22,12 +22,24 @@ website:
       - href: red.qmd
         text: "Redes"
       - href: blog.qmd
-        text: "Opinión"  
+        text: "Opinión"
+      - text: "Summit"
+        menu:
+          - href: summit/2026/index.qmd
+            text: "Summit 2026"
+          - href: summit/2026/prensa.qmd
+            text: "Prensa"
+          # Para sumar material, agregá ítems acá (crear el .qmd en summit/2026/):
+          # - href: summit/2026/fotos.qmd
+          #   text: "Fotos"
+          # - href: summit/2026/documentos.qmd
+          #   text: "Documentos"
 
 format:
   html:
     theme: cosmo
     css: styles.css
+    include-after-body: _cta-red.html
     toc: false
     lang: es
 

@@ -1,0 +1,24 @@
+<!-- Call to action global: Red de expertos en IA de nadIA (se incluye en todas las páginas vía _quarto.yml) -->
+<aside class="cta-red" id="cta-red" aria-labelledby="cta-red-titulo">
+  <div class="cta-red-texto">
+    <p class="cta-red-etiqueta">Red de expertos</p>
+    <h2 id="cta-red-titulo">Sumate a la red de expertos en IA de nadIA</h2>
+    <p>¿Trabajás, investigás o desarrollás inteligencia artificial? Postulate para formar parte de la red y contribuir al desarrollo de la región.</p>
+  </div>
+  <a class="cta-red-boton"
+     href="https://docs.google.com/forms/d/e/1FAIpQLScOCj0PsBA6-61wAcX5kQmCC97kHtEozEk27NSAh8OLmh2xOA/viewform"
+     target="_blank" rel="noopener noreferrer">Quiero sumarme &rarr;</a>
+</aside>
+<script>
+  // Ubica el módulo al final del contenido, antes del banner del footer si la página lo tiene
+  (function () {
+    var cta = document.getElementById("cta-red");
+    var footer = document.querySelector("main .site-footer");
+    var main = document.querySelector("main.content") || document.querySelector("main");
+    if (footer) {
+      footer.parentNode.insertBefore(cta, footer);
+    } else if (main) {
+      main.appendChild(cta);
+    }
+  })();
+</script>

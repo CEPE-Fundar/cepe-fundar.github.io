@@ -115,6 +115,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Opinión</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-summit" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Summit</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-summit">    
+        <li>
+    <a class="dropdown-item" href="./summit/2026/index.html">
+ <span class="dropdown-text">Summit 2026</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./summit/2026/prensa.html">
+ <span class="dropdown-text">Prensa</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -175,6 +190,28 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<!-- Call to action global: Red de expertos en IA de nadIA (se incluye en todas las páginas vía _quarto.yml) -->
+<aside class="cta-red" id="cta-red" aria-labelledby="cta-red-titulo">
+  <div class="cta-red-texto">
+    <p class="cta-red-etiqueta">Red de expertos</p>
+    <h2 id="cta-red-titulo">Sumate a la red de expertos en IA de nadIA</h2>
+    <p>¿Trabajás, investigás o desarrollás inteligencia artificial? Postulate para formar parte de la red y contribuir al desarrollo de la región.</p>
+  </div>
+  <a class="cta-red-boton" href="https://docs.google.com/forms/d/e/1FAIpQLScOCj0PsBA6-61wAcX5kQmCC97kHtEozEk27NSAh8OLmh2xOA/viewform" target="_blank" rel="noopener noreferrer">Quiero sumarme →</a>
+</aside>
+<script>
+  // Ubica el módulo al final del contenido, antes del banner del footer si la página lo tiene
+  (function () {
+    var cta = document.getElementById("cta-red");
+    var footer = document.querySelector("main .site-footer");
+    var main = document.querySelector("main.content") || document.querySelector("main");
+    if (footer) {
+      footer.parentNode.insertBefore(cta, footer);
+    } else if (main) {
+      main.appendChild(cta);
+    }
+  })();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
