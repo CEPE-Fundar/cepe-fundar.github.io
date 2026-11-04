@@ -47,6 +47,12 @@ format:
     include-after-body: _cta-red.html
     toc: false
     lang: es
+    # Ancho de la columna central (por defecto Quarto deja ~800px y columnas laterales vacías)
+    grid:
+      body-width: 1080px
+      sidebar-width: 200px
+      margin-width: 200px
+      gutter-width: 2rem
 
 
 

@@ -184,8 +184,8 @@ body.nav-fixed {
 .quarto-container .blog-layout {
   max-width: 100%;
   display: grid;
-  grid-template-columns: 1fr 280px;
-  gap: 4rem;
+  grid-template-columns: 1fr 240px;
+  gap: 3rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
   align-items: start;
@@ -474,8 +474,8 @@ hr {
 /* Cuando blog-sidebar está dentro de blog-layout */
 .blog-layout {
   display: grid;
-  grid-template-columns: 1fr 280px;
-  gap: 4rem;
+  grid-template-columns: 1fr 240px;
+  gap: 3rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
   align-items: start;
@@ -489,7 +489,7 @@ hr {
 /* Cuando blog-sidebar está fuera de blog-layout (hermano), usar float */
 .blog-layout + .blog-sidebar {
   float: right;
-  width: 280px;
+  width: 240px;
   margin-top: 2rem;
   margin-left: 4rem;
   position: sticky;
@@ -500,7 +500,7 @@ hr {
 
 /* Ajustar blog-layout cuando sidebar está fuera */
 .blog-layout:not(:has(.blog-sidebar)) {
-  margin-right: 304px; /* 280px sidebar + 24px gap */
+  margin-right: 288px; /* 240px sidebar + 48px gap */
   overflow: hidden; /* Contener el float */
 }
 
@@ -552,7 +552,7 @@ main.content:has(.blog-layout):has(.blog-sidebar:not(.blog-layout .blog-sidebar)
   background: transparent;
   border: none;
   grid-column: 2;
-  width: 280px;
+  width: 240px;
   align-self: start;
 }
 
