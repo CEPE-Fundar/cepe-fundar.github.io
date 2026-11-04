@@ -44,7 +44,9 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    include-in-header: _cta-red-estilos.html
+    include-in-header:
+      - _cta-red-estilos.html
+      - _redes-estilos.html
     include-after-body: _cta-red.html
     toc: false
     lang: es

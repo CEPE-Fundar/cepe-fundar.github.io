@@ -69,125 +69,405 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <!-- Estilos de la red de expertos de nadIA: tarjeta CTA (_cta-red.html) y botón "Ser parte" del navbar -->
+
 <!-- Van acá y no en styles.css para que nunca se vean sin estilo por caché del navegador -->
+
 <style>
+
   /* Botón "Ser parte" del navbar */
+
   .navbar a.nav-link[href*="docs.google.com/forms"] {
+
     margin-left: 0.5rem;
+
     padding: 0.4rem 1.1rem !important;
+
     border-radius: 999px;
+
     background-color: #2E27F3;
+
     color: #ffffff !important;
+
     font-weight: 600;
+
     white-space: nowrap;
+
   }
+
+
 
   .navbar a.nav-link[href*="docs.google.com/forms"]:hover,
+
   .navbar a.nav-link[href*="docs.google.com/forms"]:focus {
+
     background-color: #98D161 !important;
+
     color: #1a1a1a !important;
+
   }
+
+
 
   @media (max-width: 991.98px) {
+
     .navbar a.nav-link[href*="docs.google.com/forms"] {
+
       display: inline-block;
+
       margin: 0.5rem 0 0;
+
     }
+
   }
+
+
 
   /* Tarjeta CTA */
+
   .cta-red {
+
     display: flex;
+
     align-items: center;
+
     justify-content: space-between;
+
     gap: 2rem;
+
     margin: 4rem 0 0;
+
     padding: 1.5rem 1.75rem;
+
     border-radius: 12px;
+
     border: 1px solid #e5e5e5;
+
     background-color: #f7f7fb;
+
     color: #1a1a1a;
+
   }
+
+
 
   .cta-red .cta-red-texto p {
+
     margin: 0;
+
     color: #666;
+
     font-size: 0.95rem;
+
   }
+
+
 
   .cta-red .cta-red-texto p.cta-red-etiqueta {
+
     margin-bottom: 0.35rem;
+
     font-size: 0.75rem;
+
     font-weight: 600;
+
     letter-spacing: 0.06em;
+
     text-transform: uppercase;
+
     color: #3f6b17;
+
   }
+
+
 
   .cta-red h2 {
+
     margin: 0 0 0.35rem;
+
     font-size: 1.2rem;
+
     color: #1a1a1a;
+
     border-bottom: none;
+
     padding-bottom: 0;
+
   }
+
+
 
   .cta-red a.cta-red-boton {
+
     flex-shrink: 0;
+
     padding: 0.55rem 1.2rem;
+
     border-radius: 999px;
+
     border: 1.5px solid #2E27F3;
+
     background-color: transparent;
+
     color: #2E27F3;
+
     font-weight: 500;
+
     text-decoration: none;
+
     white-space: nowrap;
+
     transition: background-color 0.2s ease, color 0.2s ease;
+
   }
+
+
 
   .cta-red a.cta-red-boton:hover,
+
   .cta-red a.cta-red-boton:focus {
+
     background-color: #2E27F3;
+
     color: #ffffff;
+
   }
+
+
 
   .cta-red .cta-red-botones {
+
     display: flex;
+
     flex-wrap: wrap;
+
     gap: 0.6rem;
+
     flex-shrink: 0;
+
   }
+
+
 
   /* "Ser parte": verde de la paleta, igual que la etiqueta de arriba */
+
   .cta-red a.cta-red-boton-secundario {
+
     border-color: #98D161;
+
     background-color: rgba(152, 209, 97, 0.2);
+
     color: #3f6b17;
+
   }
+
+
 
   .cta-red a.cta-red-boton-secundario:hover,
+
   .cta-red a.cta-red-boton-secundario:focus {
+
     background-color: #98D161;
+
     border-color: #98D161;
+
     color: #1a1a1a;
+
   }
+
+
 
   .cta-red + .site-footer {
+
     margin-top: 2rem;
+
   }
+
+
 
   @media (max-width: 768px) {
+
     .cta-red {
+
       flex-direction: column;
+
       align-items: flex-start;
+
       gap: 1.25rem;
+
       padding: 1.5rem;
+
     }
 
+
+
     .cta-red h2 {
+
       font-size: 1.25rem;
+
     }
+
   }
+
+</style>
+
+<!-- Estilos de la sección Redes (portada, Red de Expertos e integrantes). -->
+<!-- Van acá y no en styles.css para que nunca se vean sin estilo por caché del navegador (GitHub Pages cachea styles.css hasta 4 horas). -->
+<style>
+.redes-nota {
+  margin: 2.5rem 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 3px solid var(--accent-color);
+  background: var(--hover-color);
+  border-radius: 0 8px 8px 0;
+}
+
+.redes-acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2.5rem 0;
+}
+
+.redes-boton {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  background: var(--accent-color);
+  color: #fff !important;
+  font-weight: 600;
+  border-bottom: none !important;
+}
+
+.redes-boton:hover {
+  opacity: 0.9;
+}
+
+.redes-boton-secundario {
+  background: transparent;
+  color: var(--accent-color) !important;
+  border: 1.5px solid var(--accent-color) !important;
+}
+
+/* Catálogo de expertos */
+.catalogo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.catalogo-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1.25rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: var(--bg-color);
+}
+
+.catalogo-card:hover {
+  border-color: var(--accent-color);
+}
+
+.catalogo-foto {
+  flex: 0 0 64px;
+}
+
+.catalogo-card .catalogo-foto img,
+.catalogo-iniciales {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin: 0;
+  object-fit: cover;
+}
+
+.catalogo-iniciales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--hover-color);
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.catalogo-datos {
+  min-width: 0;
+}
+
+.catalogo-card .catalogo-datos h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.25rem;
+}
+
+.catalogo-card .catalogo-datos p {
+  margin: 0 0 0.25rem;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+.catalogo-filiacion {
+  font-weight: 500;
+}
+
+.catalogo-ubicacion,
+.catalogo-especialidad {
+  color: var(--secondary-color);
+}
+
+.catalogo-areas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.6rem 0;
+}
+
+.catalogo-area {
+  font-size: 0.75rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  background: var(--hover-color);
+  color: var(--accent-color);
+}
+
+.catalogo-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.catalogo-origen {
+  display: inline-block;
+  margin-bottom: 0.35rem;
+  font-size: 0.75rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(152, 209, 97, 0.2);
+  color: #3f6b17;
+}
+
+.redes-boton-inline {
+  display: inline-block;
+  padding: 0.1rem 0.85rem;
+  margin-left: 0.25rem;
+  border-radius: 999px;
+  background: var(--accent-color);
+  color: #fff !important;
+  font-size: inherit;
+  font-weight: 500;
+  border-bottom: none !important;
+}
+
+.redes-boton-inline:hover {
+  opacity: 0.9;
+}
+
+.redes-postulacion {
+  color: var(--secondary-color);
+  font-size: 0.95rem;
+}
 </style>
 <script>
   window.location.replace("nosotros.html");
@@ -287,35 +567,65 @@ ul.task-list li input[type="checkbox"] {
 
 </main> <!-- /main -->
 <!-- Módulo global: Red de Expertos nadIA (se incluye en todas las páginas vía _quarto.yml; estilos en _cta-red-estilos.html) -->
+
 <aside class="cta-red" id="cta-red" aria-labelledby="cta-red-titulo">
+
   <div class="cta-red-texto">
+
     <p class="cta-red-etiqueta">Red de Expertos nadIA</p>
+
     <h2 id="cta-red-titulo">Especialistas en IA, en Argentina y en el exterior</h2>
+
     <p>Personas que investigan, desarrollan y aplican inteligencia artificial desde la academia, el Estado, las empresas y los organismos internacionales.</p>
+
   </div>
+
   <div class="cta-red-botones">
+
     <a class="cta-red-boton" href="./redes/integrantes.html">Conocé a los expertos →</a>
+
     <a class="cta-red-boton cta-red-boton-secundario" href="https://docs.google.com/forms/d/e/1FAIpQLScOCj0PsBA6-61wAcX5kQmCC97kHtEozEk27NSAh8OLmh2xOA/viewform" target="_blank" rel="noopener noreferrer">Ser parte</a>
+
   </div>
+
 </aside>
+
 <script>
+
   // Ubica el módulo al final del contenido, antes del banner del footer si la página lo tiene.
+
   // No se muestra dentro de la sección Redes, donde sería redundante.
+
   (function () {
+
     var cta = document.getElementById("cta-red");
+
     if (window.location.pathname.indexOf("/redes/") !== -1) {
+
       cta.remove();
+
       return;
+
     }
+
     var footer = document.querySelector("main .site-footer");
+
     var main = document.querySelector("main.content") || document.querySelector("main");
+
     if (footer) {
+
       footer.parentNode.insertBefore(cta, footer);
+
     } else if (main) {
+
       main.appendChild(cta);
+
     }
+
   })();
+
 </script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
