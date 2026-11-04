@@ -13,7 +13,7 @@ listing:
   fields: [nombre, filiacion, ubicacion, especialidad, categories]
 ---
 
-<!-- BOCETO: datos provisorios, 17 respuestas al 04/11/2026 -->
+<!-- Datos: respuestas al formulario (ver redes/expertos.yml) -->
 
 :::{#integrantes}
 :::

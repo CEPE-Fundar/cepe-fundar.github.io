@@ -198,3 +198,14 @@
   foto: "fotos/leonardo-pepino.jpg"
   links:
     - {url: "https://leonardopepino.latentsound.com", texto: "Web"}
+
+- nombre: "Daniel Yankelevich"
+  filiacion: "Fundar"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Intersección entre tecnología y sociedad"
+  categories: ["Gobernanza"]
+  foto: "fotos/daniel-yankelevich.jpg"
+  links:
+    - {url: "https://www.linkedin.com/in/dyankele/", texto: "LinkedIn"}
