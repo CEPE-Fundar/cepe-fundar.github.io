@@ -1,0 +1,95 @@
+---
+title: "IA, geopolítica y soberanía: un debate desde el Sur Global"
+description: "En una emisión especial de On The Record, Iván Schargrodsky reunió a Eduardo Levy Yeyati, Daniel Yankelevich, Sofía Scasserra y Nicolás Wolovick para discutir el impacto geopolítico de la inteligencia artificial y los desafíos de soberanía para la región."
+date: "2026-10-19"
+author: "Cenital"
+categories: ["Gobernanza", "Innovación"]
+draft: false
+---
+
+<div class="blog-layout">
+
+<div class="blog-content">
+
+Iván Schargrodsky encabezó una emisión especial de On The Record dedicada a la Inteligencia Artificial, su impacto geopolítico y los desafíos de soberanía para los países del Sur Global. Emitido por C+ (el canal de YouTube de Cenital), el panel reunió a Eduardo Levy Yeyati, profesor plenario de la Universidad Torcuato Di Tella y fundador del CEPE Di Tella; Daniel Yankelevich, Investigador Principal en Fundar y socio fundador de Practia; Sofía Scasserra, investigadora en economía y sociedad digital del Instituto del Mundo del Trabajo Julio Godio; y Nicolás Wolovick, Dr. en Ciencias de la Computación, director de UNC Supercómputo y profesor asociado en FAMAF – Universidad Nacional de Córdoba.
+
+{{< video https://www.youtube.com/watch?v=W2JyChYUGl4 title="On The Record: Inteligencia Artificial, geopolítica y soberanía" >}}
+
+El punto de partida de la mesa se centró en la pugna por la frontera técnica entre Estados Unidos y China y la fuerte concentración material del sector. Respecto a la infraestructura y los recursos necesarios para el procesamiento de datos, Nicolás Wolovick advirtió sobre la extrema centralización que sostiene este ecosistema: “Nunca se requirió de tantos cálculos como ahora, ni para simulación de armas nucleares ni para farmacología. Se está disparando el consumo del cómputo de una manera más que exponencial. Se necesita un montón de computadoras muy caras que solamente fabrican dos o tres empresas en el planeta, y la máquina que fabrica los chips para esas computadoras hay una sola en el mundo. Es una concentración absolutamente loca”. Asimismo, se cuestionó la noción de que los magnates tecnológicos operan por fuera de los límites de las superpotencias, señalando cómo los gobiernos retienen la capacidad de fijar el rumbo geopolítico y legal frente al avance de estas herramientas.
+
+Al abordar la dimensión institucional y la falta de mecanismos de rendición de cuentas de las plataformas internacionales, Sofía Scasserra hizo hincapié en la desprotección regulatoria que enfrentan las sociedades contemporáneas: “A mí lo que más me preocupa es la falta de responsabilidad y la falta de institucionalismo para poder hacer rendir cuentas a aquellos que producen este tipo de tecnología. No hay formas de accountability y parece que tenemos que rezar para que los magnates tecnológicos tengan buena voluntad de no dejar salir al ‘kraken’. El discurso se plantea casi como una amenaza a la humanidad donde quedamos indefensos”. Por su parte, Daniel Yankelevich relativizó los discursos apocalípticos abstractos y devolvió el foco hacia la agencia de las personas y de los Estados: “Riesgo existencial hay, de la misma manera que no podemos descartar que caiga un asteroide. La diferencia fundamental es que el asteroide nos cae encima; acá hay una decisión sobre qué se hace con esto. Si le damos el botón nuclear a la IA, el problema es nuestro. Los humanos detrás de esto son los que están decidiendo hasta dónde va a llegar y de qué manera”.
+
+La autonomía de las naciones periféricas frente al monopolio de la nube y los tratados internacionales de comercio de datos motivó una discusión profunda sobre las dependencias del sector público. Eduardo Levy Yeyati alertó sobre las consecuencias de delegar los servicios e información crítica en centros remotos: “Hay un debate donde tenemos que tener participación activa y es en el acceso. Brasil tiene una postura mucho más proactiva y exige que ciertos sectores alojen sus datos en el país; eso hace que mucha capacidad de cómputo quede para los brasileños. Si vos colgás toda tu infraestructura, educación, salud y datos públicos de un centro extranjero y un presidente te lo desconecta para extorsionarte, quedás en una situación de dependencia insalvable. Cuanto más penetre la IA, mayor va a ser la dependencia estructural”. Frente a este panorama, Scasserra puntualizó que la soberanía no implica aislarse sino negociar condiciones precisas en los pliegos y convenios de software para evitar que una decisión privada inhabilite funciones básicas del Estado.
+
+Finalmente, el diálogo se orientó hacia los efectos locales sobre el mundo laboral, la educación pública y la desigualdad distributiva, subrayando que la implementación técnica es indisociable de las relaciones de poder. En esa línea, Daniel Yankelevich remarcó: “No tenemos que focalizar en la discusión técnica ni siquiera como primer punto. Tenemos que entender que al implementar tecnología entran a jugar disputas gremiales, sociales y políticas; no pasa solo por si algo puede reemplazarte o no. La IA es un tema político”. Los especialistas coincidieron en que el futuro dependerá de la capacidad de fortalecer el sistema científico local y aplicar soluciones a medida orientadas a las pymes y al trabajo formal, en lugar de importar pasivamente agendas ajenas a la realidad nacional.
+
+
+<div class="blog-source-link">
+Publicado originalmente en 
+<a href="https://www.youtube.com/watch?v=W2JyChYUGl4">Cenital (C+)</a>
+</div>
+
+</div>
+
+<div class="blog-sidebar">
+
+<div class="blog-filters" id="blog-filters">
+  <button class="blog-filter-btn active" data-category="all">Todas</button>
+  <button class="blog-filter-btn" data-category="Gobernanza">Gobernanza</button>
+  <button class="blog-filter-btn" data-category="Adopción">Adopción</button>
+  <button class="blog-filter-btn" data-category="Educación">Educación</button>
+  <button class="blog-filter-btn" data-category="Innovación">Innovación</button>
+</div>
+
+</div>
+
+
+</div>
+
+
+<script>
+// Filtros por categoría - redirige al blog con el filtro
+document.addEventListener('DOMContentLoaded', function() {
+  const filterButtons = document.querySelectorAll('.blog-filter-btn');
+  
+  filterButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const category = this.getAttribute('data-category');
+      window.location.href = '../blog.html?categoria=' + encodeURIComponent(category);
+    });
+  });
+  
+  // Hacer las categorías clickeables
+  const categoryElements = document.querySelectorAll('.quarto-category');
+  categoryElements.forEach(cat => {
+    cat.style.cursor = 'pointer';
+    cat.style.textDecoration = 'underline';
+    cat.addEventListener('click', function() {
+      const category = this.textContent.trim();
+      window.location.href = '../blog.html?categoria=' + encodeURIComponent(category);
+    });
+  });
+});
+</script>
+
+
+
+<script>
+// Traducir Author y Published al español
+document.addEventListener('DOMContentLoaded', function() {
+  const headings = document.querySelectorAll('.quarto-title-meta-heading');
+  headings.forEach(heading => {
+    if (heading.textContent.trim() === 'Author') {
+      heading.textContent = 'Autor';
+    } else if (heading.textContent.trim() === 'Published') {
+      heading.textContent = 'Publicado';
+    }
+  });
+});
+</script>
+
+
+<footer class="site-footer">
+  <img src="../NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">
+</footer>
+
