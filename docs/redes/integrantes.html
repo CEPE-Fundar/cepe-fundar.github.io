@@ -470,7 +470,7 @@ ul.task-list li input[type="checkbox"] {
   font-size: 0.85rem;
 }
 
-.catalogo-origen {
+.catalogo-card a.catalogo-origen {
   display: inline-block;
   margin-bottom: 0.35rem;
   font-size: 0.75rem;
@@ -478,6 +478,15 @@ ul.task-list li input[type="checkbox"] {
   border-radius: 999px;
   background: rgba(152, 209, 97, 0.2);
   color: #3f6b17;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.catalogo-card a.catalogo-origen:hover,
+.catalogo-card a.catalogo-origen:focus {
+  background: #98D161;
+  color: #1a1a1a;
+  border-bottom: none;
 }
 
 .redes-boton-inline {
@@ -613,7 +622,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(18)</span></div><div class="category" data-category="QXByZW5kaXphamUlMjBhdXRvbSVDMyVBMXRpY28=">Aprendizaje automático <span class="quarto-category-count">(4)</span></div><div class="category" data-category="RGF0b3M=">Datos <span class="quarto-category-count">(5)</span></div><div class="category" data-category="RWR1Y2FjaSVDMyVCM24=">Educación <span class="quarto-category-count">(3)</span></div><div class="category" data-category="R29iZXJuYW56YQ==">Gobernanza <span class="quarto-category-count">(6)</span></div><div class="category" data-category="TGVuZ3VhamUlMjB5JTIwaGFibGE=">Lenguaje y habla <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UG9sJUMzJUFEdGljYXMlMjBwJUMzJUJBYmxpY2Fz">Políticas públicas <span class="quarto-category-count">(4)</span></div><div class="category" data-category="U2FsdWQ=">Salud <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlzaSVDMyVCM24lMjBlJTIwaW0lQzMlQTFnZW5lcw==">Visión e imágenes <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(21)</span></div><div class="category" data-category="QXByZW5kaXphamUlMjBhdXRvbSVDMyVBMXRpY28=">Aprendizaje automático <span class="quarto-category-count">(6)</span></div><div class="category" data-category="RGF0b3M=">Datos <span class="quarto-category-count">(6)</span></div><div class="category" data-category="RWR1Y2FjaSVDMyVCM24=">Educación <span class="quarto-category-count">(3)</span></div><div class="category" data-category="R29iZXJuYW56YQ==">Gobernanza <span class="quarto-category-count">(7)</span></div><div class="category" data-category="TGVuZ3VhamUlMjB5JTIwaGFibGE=">Lenguaje y habla <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UG9sJUMzJUFEdGljYXMlMjBwJUMzJUJBYmxpY2Fz">Políticas públicas <span class="quarto-category-count">(5)</span></div><div class="category" data-category="U2FsdWQ=">Salud <span class="quarto-category-count">(3)</span></div><div class="category" data-category="VmlzaSVDMyVCM24lMjBlJTIwaW0lQzMlQTFnZW5lcw==">Visión e imágenes <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -659,7 +668,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Agustina Brizio</h3>
     <p class="catalogo-filiacion listing-filiacion">The Datasphere Initiative</p>
@@ -715,7 +724,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Claudio Delrieux</h3>
     <p class="catalogo-filiacion listing-filiacion">Universidad Nacional del Sur y CONICET</p>
@@ -744,7 +753,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Daniel Yankelevich</h3>
     <p class="catalogo-filiacion listing-filiacion">Fundar</p>
@@ -769,7 +778,36 @@ window.Quarto = {
   </div>
 </article>
 
-<article data-index="4" data-categories="QXByZW5kaXphamUlMjBhdXRvbSVDMyVBMXRpY28=" class="catalogo-card">
+<article data-index="4" data-categories="UG9sJUMzJUFEdGljYXMlMjBwJUMzJUJBYmxpY2FzJTJDR29iZXJuYW56YQ==" class="catalogo-card">
+  <div class="catalogo-foto">
+    
+      <img src="fotos/eduardo-levy-yeyati.jpg" alt="Foto de Eduardo Levy Yeyati" loading="lazy">
+    
+  </div>
+  <div class="catalogo-datos">
+    
+    <h3 class="listing-nombre anchored">Eduardo Levy Yeyati</h3>
+    <p class="catalogo-filiacion listing-filiacion">Universidad Torcuato Di Tella</p>
+    <p class="catalogo-ubicacion listing-ubicacion">Buenos Aires, Argentina – Washington DC, Estados Unidos</p>
+    <p class="catalogo-especialidad listing-especialidad">Futuro del trabajo, estrategia de IA</p>
+    <div class="catalogo-areas">
+      
+        <span class="catalogo-area">Políticas públicas</span>
+      
+        <span class="catalogo-area">Gobernanza</span>
+      
+    </div>
+    
+    <div class="catalogo-links">
+      
+        <a href="https://eduardoyeyati.com/" target="_blank" rel="noopener noreferrer">Web ↗</a>
+      
+    </div>
+    
+  </div>
+</article>
+
+<article data-index="5" data-categories="QXByZW5kaXphamUlMjBhdXRvbSVDMyVBMXRpY28=" class="catalogo-card">
   <div class="catalogo-foto">
     
       <img src="fotos/enzo-ferrante.jpg" alt="Foto de Enzo Ferrante" loading="lazy">
@@ -777,7 +815,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Enzo Ferrante</h3>
     <p class="catalogo-filiacion listing-filiacion">CONICET, UBA e ITBA</p>
@@ -798,7 +836,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article data-index="5" data-categories="UG9sJUMzJUFEdGljYXMlMjBwJUMzJUJBYmxpY2Fz" class="catalogo-card">
+<article data-index="6" data-categories="UG9sJUMzJUFEdGljYXMlMjBwJUMzJUJBYmxpY2Fz" class="catalogo-card">
   <div class="catalogo-foto">
     
       <img src="fotos/ezequiel-tacsir.jpg" alt="Foto de Ezequiel Tacsir" loading="lazy">
@@ -806,7 +844,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Ezequiel Tacsir</h3>
     <p class="catalogo-filiacion listing-filiacion">CINVE (Uruguay); investigador afiliado a Analytica y CIPPEC</p>
@@ -827,7 +865,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article data-index="6" data-categories="RWR1Y2FjaSVDMyVCM24lMkNQb2wlQzMlQUR0aWNhcyUyMHAlQzMlQkFibGljYXM=" class="catalogo-card">
+<article data-index="7" data-categories="RWR1Y2FjaSVDMyVCM24lMkNQb2wlQzMlQUR0aWNhcyUyMHAlQzMlQkFibGljYXM=" class="catalogo-card">
   <div class="catalogo-foto">
     
       <img src="fotos/guadalupe-dorna.jpg" alt="Foto de Guadalupe Dorna" loading="lazy">
@@ -835,7 +873,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Guadalupe Dorna</h3>
     <p class="catalogo-filiacion listing-filiacion">Universidad Torcuato Di Tella</p>
@@ -858,7 +896,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article data-index="7" data-categories="UG9sJUMzJUFEdGljYXMlMjBwJUMzJUJBYmxpY2FzJTJDRGF0b3MlMkNHb2Jlcm5hbnph" class="catalogo-card">
+<article data-index="8" data-categories="UG9sJUMzJUFEdGljYXMlMjBwJUMzJUJBYmxpY2FzJTJDRGF0b3MlMkNHb2Jlcm5hbnph" class="catalogo-card">
   <div class="catalogo-foto">
     
       <img src="fotos/juan-pablo-ruiz-nicolini.jpg" alt="Foto de Juan Pablo Ruiz Nicolini" loading="lazy">
@@ -866,7 +904,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Juan Pablo Ruiz Nicolini</h3>
     <p class="catalogo-filiacion listing-filiacion">Fundar</p>
@@ -893,7 +931,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article data-index="8" data-categories="TGVuZ3VhamUlMjB5JTIwaGFibGElMkNBcHJlbmRpemFqZSUyMGF1dG9tJUMzJUExdGljbw==" class="catalogo-card">
+<article data-index="9" data-categories="TGVuZ3VhamUlMjB5JTIwaGFibGElMkNBcHJlbmRpemFqZSUyMGF1dG9tJUMzJUExdGljbw==" class="catalogo-card">
   <div class="catalogo-foto">
     
       <img src="fotos/leonardo-pepino.jpg" alt="Foto de Leonardo Pepino" loading="lazy">
@@ -922,7 +960,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article data-index="9" data-categories="TGVuZ3VhamUlMjB5JTIwaGFibGE=" class="catalogo-card">
+<article data-index="10" data-categories="TGVuZ3VhamUlMjB5JTIwaGFibGE=" class="catalogo-card">
   <div class="catalogo-foto">
     
       <img src="fotos/luciana-ferrer.jpg" alt="Foto de Luciana Ferrer" loading="lazy">
@@ -930,7 +968,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Luciana Ferrer</h3>
     <p class="catalogo-filiacion listing-filiacion">Instituto de Ciencias de la Computación, CONICET-UBA</p>
@@ -951,7 +989,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article data-index="10" data-categories="RWR1Y2FjaSVDMyVCM24=" class="catalogo-card">
+<article data-index="11" data-categories="RWR1Y2FjaSVDMyVCM24=" class="catalogo-card">
   <div class="catalogo-foto">
     
       <img src="fotos/martin-de-simone.jpg" alt="Foto de Martín De Simone" loading="lazy">
@@ -959,7 +997,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Martín De Simone</h3>
     <p class="catalogo-filiacion listing-filiacion">Banco Mundial</p>
@@ -980,7 +1018,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article data-index="11" data-categories="R29iZXJuYW56YQ==" class="catalogo-card">
+<article data-index="12" data-categories="R29iZXJuYW56YQ==" class="catalogo-card">
   <div class="catalogo-foto">
     
       <img src="fotos/martin-olmos.jpg" alt="Foto de Martín Olmos" loading="lazy">
@@ -988,7 +1026,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Martín Olmos</h3>
     <p class="catalogo-filiacion listing-filiacion">CAF – Banco de Desarrollo de América Latina y el Caribe</p>
@@ -1009,7 +1047,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article data-index="12" data-categories="QXByZW5kaXphamUlMjBhdXRvbSVDMyVBMXRpY28=" class="catalogo-card">
+<article data-index="13" data-categories="QXByZW5kaXphamUlMjBhdXRvbSVDMyVBMXRpY28=" class="catalogo-card">
   <div class="catalogo-foto">
     
       <img src="fotos/matias-bilkis.jpg" alt="Foto de Matías Bilkis" loading="lazy">
@@ -1017,7 +1055,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Matías Bilkis</h3>
     <p class="catalogo-filiacion listing-filiacion">UNLP y UAI</p>
@@ -1038,7 +1076,38 @@ window.Quarto = {
   </div>
 </article>
 
-<article data-index="13" data-categories="RGF0b3MlMkNHb2Jlcm5hbnph" class="catalogo-card">
+<article data-index="14" data-categories="QXByZW5kaXphamUlMjBhdXRvbSVDMyVBMXRpY28lMkNTYWx1ZCUyQ0RhdG9z" class="catalogo-card">
+  <div class="catalogo-foto">
+    
+      <img src="fotos/nicolas-nieto.jpg" alt="Foto de Nicolás Nieto" loading="lazy">
+    
+  </div>
+  <div class="catalogo-datos">
+    
+    <h3 class="listing-nombre anchored">Nicolás Nieto</h3>
+    <p class="catalogo-filiacion listing-filiacion">Research Center Jülich (FZJ)</p>
+    <p class="catalogo-ubicacion listing-ubicacion">Colonia, Alemania</p>
+    <p class="catalogo-especialidad listing-especialidad">Modelado predictivo con resonancia magnética, data leakage, armonización de datos</p>
+    <div class="catalogo-areas">
+      
+        <span class="catalogo-area">Aprendizaje automático</span>
+      
+        <span class="catalogo-area">Salud</span>
+      
+        <span class="catalogo-area">Datos</span>
+      
+    </div>
+    
+    <div class="catalogo-links">
+      
+        <a href="https://github.com/N-Nieto" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      
+    </div>
+    
+  </div>
+</article>
+
+<article data-index="15" data-categories="RGF0b3MlMkNHb2Jlcm5hbnph" class="catalogo-card">
   <div class="catalogo-foto">
     
       <img src="fotos/patricio-del-boca.jpg" alt="Foto de Patricio Del Boca" loading="lazy">
@@ -1046,7 +1115,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Patricio Del Boca</h3>
     <p class="catalogo-filiacion listing-filiacion">Open Knowledge Foundation</p>
@@ -1069,7 +1138,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article data-index="14" data-categories="VmlzaSVDMyVCM24lMjBlJTIwaW0lQzMlQTFnZW5lcyUyQ1NhbHVk" class="catalogo-card">
+<article data-index="16" data-categories="VmlzaSVDMyVCM24lMjBlJTIwaW0lQzMlQTFnZW5lcyUyQ1NhbHVk" class="catalogo-card">
   <div class="catalogo-foto">
     
       <span class="catalogo-iniciales" aria-hidden="true">PF</span>
@@ -1098,7 +1167,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article data-index="15" data-categories="QXByZW5kaXphamUlMjBhdXRvbSVDMyVBMXRpY28lMkNEYXRvcw==" class="catalogo-card">
+<article data-index="17" data-categories="QXByZW5kaXphamUlMjBhdXRvbSVDMyVBMXRpY28lMkNEYXRvcw==" class="catalogo-card">
   <div class="catalogo-foto">
     
       <img src="fotos/rodrigo-castro.jpg" alt="Foto de Rodrigo Castro" loading="lazy">
@@ -1106,7 +1175,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Rodrigo Castro</h3>
     <p class="catalogo-filiacion listing-filiacion">Departamento de Computación, Exactas-UBA y CONICET</p>
@@ -1129,7 +1198,38 @@ window.Quarto = {
   </div>
 </article>
 
-<article data-index="16" data-categories="R29iZXJuYW56YSUyQ0RhdG9z" class="catalogo-card">
+<article data-index="18" data-categories="VmlzaSVDMyVCM24lMjBlJTIwaW0lQzMlQTFnZW5lcyUyQ1NhbHVkJTJDQXByZW5kaXphamUlMjBhdXRvbSVDMyVBMXRpY28=" class="catalogo-card">
+  <div class="catalogo-foto">
+    
+      <img src="fotos/rodrigo-echeveste.jpg" alt="Foto de Rodrigo Echeveste" loading="lazy">
+    
+  </div>
+  <div class="catalogo-datos">
+    
+    <h3 class="listing-nombre anchored">Rodrigo Echeveste</h3>
+    <p class="catalogo-filiacion listing-filiacion">sinc(i) – CONICET/UNL</p>
+    <p class="catalogo-ubicacion listing-ubicacion">Santa Fe, Argentina</p>
+    <p class="catalogo-especialidad listing-especialidad">Equidad algorítmica, NeuroIA, IA en imágenes médicas</p>
+    <div class="catalogo-areas">
+      
+        <span class="catalogo-area">Visión e imágenes</span>
+      
+        <span class="catalogo-area">Salud</span>
+      
+        <span class="catalogo-area">Aprendizaje automático</span>
+      
+    </div>
+    
+    <div class="catalogo-links">
+      
+        <a href="https://www.linkedin.com/in/rodrigo-echeveste-321132257/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      
+    </div>
+    
+  </div>
+</article>
+
+<article data-index="19" data-categories="R29iZXJuYW56YSUyQ0RhdG9z" class="catalogo-card">
   <div class="catalogo-foto">
     
       <img src="fotos/silvana-fumega.jpg" alt="Foto de Silvana Fumega" loading="lazy">
@@ -1137,7 +1237,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Silvana Fumega</h3>
     <p class="catalogo-filiacion listing-filiacion">Global Data Barometer</p>
@@ -1162,7 +1262,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article data-index="17" data-categories="RWR1Y2FjaSVDMyVCM24=" class="catalogo-card">
+<article data-index="20" data-categories="RWR1Y2FjaSVDMyVCM24=" class="catalogo-card">
   <div class="catalogo-foto">
     
       <img src="fotos/zaida-ruthb-caiguara-ramirez.jpg" alt="Foto de Zaida Ruthb Caiguara Ramirez" loading="lazy">
@@ -1170,7 +1270,7 @@ window.Quarto = {
   </div>
   <div class="catalogo-datos">
     
-      <span class="catalogo-origen">Red de la Diáspora 2026</span>
+      <a class="catalogo-origen" href="diaspora.html" title="Ver la Red de la Diáspora Latinoamericana en IA">Red de la Diáspora 2026</a>
     
     <h3 class="listing-nombre anchored">Zaida Ruthb Caiguara Ramirez</h3>
     <p class="catalogo-filiacion listing-filiacion">UCL IOE</p>

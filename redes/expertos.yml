@@ -209,3 +209,33 @@
   foto: "fotos/daniel-yankelevich.jpg"
   links:
     - {url: "https://www.linkedin.com/in/dyankele/", texto: "LinkedIn"}
+
+- nombre: "Rodrigo Echeveste"
+  filiacion: "sinc(i) – CONICET/UNL"
+  ubicacion: "Santa Fe, Argentina"
+  region: "Argentina"
+  especialidad: "Equidad algorítmica, NeuroIA, IA en imágenes médicas"
+  categories: ["Visión e imágenes", "Salud", "Aprendizaje automático"]
+  foto: "fotos/rodrigo-echeveste.jpg"
+  links:
+    - {url: "https://www.linkedin.com/in/rodrigo-echeveste-321132257/", texto: "LinkedIn"}
+
+- nombre: "Nicolás Nieto"
+  filiacion: "Research Center Jülich (FZJ)"
+  ubicacion: "Colonia, Alemania"
+  region: "Exterior"
+  especialidad: "Modelado predictivo con resonancia magnética, data leakage, armonización de datos"
+  categories: ["Aprendizaje automático", "Salud", "Datos"]
+  foto: "fotos/nicolas-nieto.jpg"
+  links:
+    - {url: "https://github.com/N-Nieto", texto: "GitHub"}
+
+- nombre: "Eduardo Levy Yeyati"
+  filiacion: "Universidad Torcuato Di Tella"
+  ubicacion: "Buenos Aires, Argentina – Washington DC, Estados Unidos"
+  region: "Argentina"
+  especialidad: "Futuro del trabajo, estrategia de IA"
+  categories: ["Políticas públicas", "Gobernanza"]
+  foto: "fotos/eduardo-levy-yeyati.jpg"
+  links:
+    - {url: "https://eduardoyeyati.com/", texto: "Web"}
