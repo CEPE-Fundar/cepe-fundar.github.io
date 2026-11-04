@@ -1,0 +1,23 @@
+---
+title: "Red de Expertos nadIA"
+description: "Especialistas en inteligencia artificial que integran la red de nadIA. Podés buscar por nombre, institución o tema, o filtrar por área."
+listing:
+  id: integrantes
+  contents: expertos.yml
+  template: _catalogo.ejs
+  sort: "nombre"
+  sort-ui: false
+  filter-ui: [nombre, filiacion, ubicacion, especialidad]
+  categories: true
+  page-size: 60
+  fields: [nombre, filiacion, ubicacion, especialidad, categories]
+---
+
+<!-- BOCETO: datos provisorios, 17 respuestas al 04/11/2026 -->
+
+:::{#integrantes}
+:::
+
+<footer class="site-footer">
+  <img src="../NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">
+</footer>

@@ -104,42 +104,44 @@ ul.task-list li input[type="checkbox"] {
     justify-content: space-between;
     gap: 2rem;
     margin: 4rem 0 0;
-    padding: 2rem 2.25rem;
+    padding: 1.5rem 1.75rem;
     border-radius: 12px;
-    background-color: #2E27F3;
-    color: #ffffff;
+    border: 1px solid #e5e5e5;
+    background-color: #f7f7fb;
+    color: #1a1a1a;
   }
 
   .cta-red .cta-red-texto p {
     margin: 0;
-    color: rgba(255, 255, 255, 0.88);
+    color: #666;
+    font-size: 0.95rem;
   }
 
   .cta-red .cta-red-texto p.cta-red-etiqueta {
-    margin-bottom: 0.5rem;
-    font-size: 0.8rem;
+    margin-bottom: 0.35rem;
+    font-size: 0.75rem;
     font-weight: 600;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #98D161;
+    color: #3f6b17;
   }
 
   .cta-red h2 {
-    margin: 0 0 0.5rem;
-    font-size: 1.5rem;
-    color: #ffffff;
+    margin: 0 0 0.35rem;
+    font-size: 1.2rem;
+    color: #1a1a1a;
     border-bottom: none;
     padding-bottom: 0;
   }
 
   .cta-red a.cta-red-boton {
     flex-shrink: 0;
-    padding: 0.75rem 1.5rem;
+    padding: 0.55rem 1.2rem;
     border-radius: 999px;
-    border-bottom: none;
-    background-color: #ffffff;
+    border: 1.5px solid #2E27F3;
+    background-color: transparent;
     color: #2E27F3;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
     white-space: nowrap;
     transition: background-color 0.2s ease, color 0.2s ease;
@@ -147,7 +149,28 @@ ul.task-list li input[type="checkbox"] {
 
   .cta-red a.cta-red-boton:hover,
   .cta-red a.cta-red-boton:focus {
+    background-color: #2E27F3;
+    color: #ffffff;
+  }
+
+  .cta-red .cta-red-botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    flex-shrink: 0;
+  }
+
+  /* "Ser parte": verde de la paleta, igual que la etiqueta de arriba */
+  .cta-red a.cta-red-boton-secundario {
+    border-color: #98D161;
+    background-color: rgba(152, 209, 97, 0.2);
+    color: #3f6b17;
+  }
+
+  .cta-red a.cta-red-boton-secundario:hover,
+  .cta-red a.cta-red-boton-secundario:focus {
     background-color: #98D161;
+    border-color: #98D161;
     color: #1a1a1a;
   }
 
@@ -207,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Investigación</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../red.html"> 
+    <a class="nav-link" href="../redes/index.html"> 
 <span class="menu-text">Redes</span></a>
   </li>  
   <li class="nav-item">
@@ -363,50 +386,36 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 </main> <!-- /main -->
-<!-- Call to action global: Red de expertos en IA de nadIA (se incluye en todas las páginas vía _quarto.yml; estilos en _cta-red-estilos.html) -->
-
+<!-- Módulo global: Red de Expertos nadIA (se incluye en todas las páginas vía _quarto.yml; estilos en _cta-red-estilos.html) -->
 <aside class="cta-red" id="cta-red" aria-labelledby="cta-red-titulo">
-
   <div class="cta-red-texto">
-
-    <p class="cta-red-etiqueta">Red de expertos</p>
-
-    <h2 id="cta-red-titulo">Sumate a la red de expertos en IA de nadIA</h2>
-
-    <p>¿Trabajás, investigás o desarrollás inteligencia artificial? Postulate para formar parte de la red y contribuir al desarrollo de Argentina.</p>
-
+    <p class="cta-red-etiqueta">Red de Expertos nadIA</p>
+    <h2 id="cta-red-titulo">Especialistas en IA, en Argentina y en el exterior</h2>
+    <p>Personas que investigan, desarrollan y aplican inteligencia artificial desde la academia, el Estado, las empresas y los organismos internacionales.</p>
   </div>
-
-  <a class="cta-red-boton" href="https://docs.google.com/forms/d/e/1FAIpQLScOCj0PsBA6-61wAcX5kQmCC97kHtEozEk27NSAh8OLmh2xOA/viewform" target="_blank" rel="noopener noreferrer">Quiero sumarme →</a>
-
+  <div class="cta-red-botones">
+    <a class="cta-red-boton" href="../redes/integrantes.html">Conocé a los expertos →</a>
+    <a class="cta-red-boton cta-red-boton-secundario" href="https://docs.google.com/forms/d/e/1FAIpQLScOCj0PsBA6-61wAcX5kQmCC97kHtEozEk27NSAh8OLmh2xOA/viewform" target="_blank" rel="noopener noreferrer">Ser parte</a>
+  </div>
 </aside>
-
 <script>
-
-  // Ubica el módulo al final del contenido, antes del banner del footer si la página lo tiene
-
+  // Ubica el módulo al final del contenido, antes del banner del footer si la página lo tiene.
+  // No se muestra dentro de la sección Redes, donde sería redundante.
   (function () {
-
     var cta = document.getElementById("cta-red");
-
-    var footer = document.querySelector("main .site-footer");
-
-    var main = document.querySelector("main.content") || document.querySelector("main");
-
-    if (footer) {
-
-      footer.parentNode.insertBefore(cta, footer);
-
-    } else if (main) {
-
-      main.appendChild(cta);
-
+    if (window.location.pathname.indexOf("/redes/") !== -1) {
+      cta.remove();
+      return;
     }
-
+    var footer = document.querySelector("main .site-footer");
+    var main = document.querySelector("main.content") || document.querySelector("main");
+    if (footer) {
+      footer.parentNode.insertBefore(cta, footer);
+    } else if (main) {
+      main.appendChild(cta);
+    }
   })();
-
 </script>
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -1,0 +1,10 @@
+#!/bin/sh
+# Bloquea el commit si lo que se va a commitear tiene correos o teléfonos personales.
+# Se activa una vez por clon con:  git config core.hooksPath .githooks
+for py in python3 python py; do
+  if command -v "$py" >/dev/null 2>&1 && "$py" -c "import sys; sys.exit(0 if sys.version_info >= (3, 9) else 1)" >/dev/null 2>&1; then
+    exec "$py" scripts/check_datos_personales.py --staged
+  fi
+done
+echo "pre-commit: no encontré Python 3.9+; no se pudo revisar datos personales." >&2
+exit 1

@@ -1,0 +1,39 @@
+```{=html}
+<div class="list catalogo-grid">
+<% for (const item of items) {
+  const partes = (item.nombre || '').split(' ').filter(Boolean);
+  const iniciales = ((partes[0] || '')[0] || '') + ((partes[partes.length - 1] || '')[0] || '');
+%>
+<article <%= metadataAttrs(item) %> class="catalogo-card">
+  <div class="catalogo-foto">
+    <% if (item.foto) { %>
+      <img src="<%= item.foto %>" alt="Foto de <%= item.nombre %>" loading="lazy">
+    <% } else { %>
+      <span class="catalogo-iniciales" aria-hidden="true"><%= iniciales.toUpperCase() %></span>
+    <% } %>
+  </div>
+  <div class="catalogo-datos">
+    <% if (item.origen) { %>
+      <span class="catalogo-origen"><%= item.origen %></span>
+    <% } %>
+    <h3 class="listing-nombre"><%= item.nombre %></h3>
+    <p class="catalogo-filiacion listing-filiacion"><%= item.filiacion %></p>
+    <p class="catalogo-ubicacion listing-ubicacion"><%= item.ubicacion %></p>
+    <p class="catalogo-especialidad listing-especialidad"><%= item.especialidad %></p>
+    <div class="catalogo-areas">
+      <% for (const c of (item.categories || [])) { %>
+        <span class="catalogo-area"><%= c %></span>
+      <% } %>
+    </div>
+    <% if (item.links && item.links.length) { %>
+    <div class="catalogo-links">
+      <% for (const l of item.links) { %>
+        <a href="<%= l.url %>" target="_blank" rel="noopener noreferrer"><%= l.texto %> ↗</a>
+      <% } %>
+    </div>
+    <% } %>
+  </div>
+</article>
+<% } %>
+</div>
+```

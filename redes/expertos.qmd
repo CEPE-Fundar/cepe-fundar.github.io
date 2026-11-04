@@ -1,0 +1,18 @@
+---
+title: "¿Qué es la Red de Expertos nadIA?"
+description: "Especialistas en inteligencia artificial que acompañan la agenda de nadIA: investigan, desarrollan, regulan y aplican IA desde la academia, el Estado, las empresas y los organismos internacionales, en Argentina y en el exterior."
+---
+
+<!-- BOCETO: texto provisorio para revisar -->
+
+La Red de Expertos nadIA reúne a personas que trabajan con inteligencia artificial desde distintos lugares del ecosistema y que quieren poner ese conocimiento al servicio del desarrollo de la Argentina y de la región. Se conformó inicialmente con participantes de la [Red de la Diáspora Argentina en IA](diaspora.qmd). <a href="integrantes.qmd" class="redes-boton-inline">Conocé a los expertos →</a>
+
+## Para qué existe la red
+
+- **Encontrar expertos.** La red reúne los [perfiles de quienes la integran](integrantes.qmd), con sus instituciones y áreas de trabajo.
+- **Facilitar la participación en la conversación pública.** La red busca acercar a sus integrantes a encuentros, documentos, proyectos y otras iniciativas de nadIA.
+- **Conectar el talento de afuera con el de adentro.** La red reúne a especialistas que viven en el país con quienes trabajan en el exterior.
+
+<footer class="site-footer">
+  <img src="../NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">
+</footer>

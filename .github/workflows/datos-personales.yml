@@ -1,0 +1,21 @@
+name: Chequeo de datos personales
+
+# Revisa en cada push y pull request que el repositorio (público) no tenga
+# correos ni teléfonos personales. Ver scripts/check_datos_personales.py.
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  datos-personales:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Buscar correos y teléfonos
+        run: python scripts/check_datos_personales.py
