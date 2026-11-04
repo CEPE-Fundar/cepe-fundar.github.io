@@ -7,6 +7,7 @@ project:
     - "!extras/**"
   resources:
     - CNAME
+    - "redes/fotos/*.jpg"
 website:
   title: "nadia"
   navbar:
@@ -19,7 +20,7 @@ website:
         text: "Manifiesto"
       - href: investigacion.qmd
         text: "Investigación"
-      - href: red.qmd
+      - href: redes/index.qmd
         text: "Redes"
       - href: blog.qmd
         text: "Opinión"

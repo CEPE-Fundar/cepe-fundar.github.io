@@ -1,0 +1,47 @@
+---
+title: "Redes"
+description: "nadIA impulsa redes que conectan a quienes investigan, desarrollan y trabajan con inteligencia artificial, en Argentina y en el exterior, con la agenda de desarrollo de la región."
+---
+
+<!-- BOCETO: texto provisorio para revisar -->
+
+<div class="investigacion-grid">
+
+<div class="investigacion-card">
+
+### [Red de Expertos nadIA](expertos.qmd)
+
+<div class="investigacion-meta">
+<span>Argentina y exterior</span>
+</div>
+
+<div class="investigacion-excerpt">
+Especialistas en inteligencia artificial de distintos espacios del ecosistema: academia, sector público, empresas y organismos internacionales. Reúne sus perfiles, instituciones y áreas de trabajo.
+</div>
+
+<a href="expertos.qmd" class="investigacion-link">Conocer la red →</a>
+
+</div>
+
+<div class="investigacion-card">
+
+### [Red de la Diáspora Latinoamericana en IA](diaspora.qmd)
+
+<div class="investigacion-meta">
+<span>Proyecto</span>
+<span>2026–2027</span>
+</div>
+
+<div class="investigacion-excerpt">
+Un proyecto para conectar a profesionales latinoamericanos en IA que viven en el exterior con los ecosistemas locales. Su primer capítulo, la Red de la Diáspora Argentina en IA, se desarrolla durante 2026.
+</div>
+
+<a href="diaspora.qmd" class="investigacion-link">Ver proyecto →</a>
+
+</div>
+
+</div>
+
+<footer class="site-footer">
+  <img src="../NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">
+</footer>

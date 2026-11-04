@@ -1,0 +1,200 @@
+# Catálogo de la Red de Expertos nadIA
+# Fuente: formulario "Event Feedback (Respuestas)" en Google Sheets.
+# NO incluir correo ni teléfono: este archivo se publica tal cual.
+#
+# Campos:
+#   nombre, filiacion, ubicacion, region (Argentina | Exterior)
+#   especialidad: texto tal como lo cargó la persona (ligeramente limpiado)
+#   categories: áreas normalizadas para filtrar (lista cerrada, ver abajo)
+#   foto: URL de imagen estable o ruta local (redes/fotos/...). Vacío = iniciales.
+#   links: lista de {url, texto}
+#   origen: etiqueta opcional, p. ej. "Red de la Diáspora 2026" (se muestra arriba del nombre)
+#
+# Áreas usadas: Gobernanza, Políticas públicas, Datos, Educación,
+#   Lenguaje y habla, Visión e imágenes, Aprendizaje automático, Salud
+
+- nombre: "Juan Pablo Ruiz Nicolini"
+  filiacion: "Fundar"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Gobierno de datos e IA, ciencia de datos"
+  categories: ["Datos", "Gobernanza"]
+  foto: "fotos/juan-pablo-ruiz-nicolini.jpg"
+  links:
+    - {url: "https://tuqmano.ar", texto: "Web"}
+    - {url: "https://github.com/tuqmano", texto: "GitHub"}
+
+- nombre: "Matías Bilkis"
+  filiacion: "UNLP y UAI"
+  ubicacion: "La Plata, Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "IA y computación cuántica"
+  categories: ["Aprendizaje automático"]
+  foto: "fotos/matias-bilkis.jpg"
+  links:
+    - {url: "https://www.linkedin.com/in/matias-bilkis-8667501bb/", texto: "LinkedIn"}
+
+- nombre: "Silvana Fumega"
+  filiacion: "Global Data Barometer"
+  ubicacion: "Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Gobernanza de datos"
+  categories: ["Gobernanza", "Datos"]
+  foto: "fotos/silvana-fumega.jpg"
+  links:
+    - {url: "https://silvanafumega.net/", texto: "Web"}
+    - {url: "https://www.linkedin.com/in/silvana-fumega/", texto: "LinkedIn"}
+
+- nombre: "Enzo Ferrante"
+  filiacion: "CONICET, UBA e ITBA"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Deep learning"
+  categories: ["Aprendizaje automático"]
+  foto: "fotos/enzo-ferrante.jpg"
+  links:
+    - {url: "https://eferrante.github.io/", texto: "Web"}
+
+- nombre: "Martín De Simone"
+  filiacion: "Banco Mundial"
+  ubicacion: "Washington DC, Estados Unidos"
+  region: "Exterior"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Educación"
+  categories: ["Educación"]
+  foto: "fotos/martin-de-simone.jpg"
+  links:
+    - {url: "https://blogs.worldbank.org/en/team/m/martin-e-de-simone", texto: "Perfil"}
+
+- nombre: "Ezequiel Tacsir"
+  filiacion: "CINVE (Uruguay); investigador afiliado a Analytica y CIPPEC"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Políticas públicas (diseño de instrumentos, evaluación)"
+  categories: ["Políticas públicas"]
+  foto: "fotos/ezequiel-tacsir.jpg"
+  links:
+    - {url: "https://www.linkedin.com/in/etacsir/", texto: "LinkedIn"}
+
+- nombre: "Agustina Brizio"
+  filiacion: "The Datasphere Initiative"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Gobernanza"
+  categories: ["Gobernanza"]
+  foto: "fotos/agustina-brizio.jpg"
+  links:
+    - {url: "https://www.linkedin.com/in/agustina-brizio-a7148576/", texto: "LinkedIn"}
+
+- nombre: "Martín Olmos"
+  filiacion: "CAF – Banco de Desarrollo de América Latina y el Caribe"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Gobernanza, infraestructura pública digital (DPI)"
+  categories: ["Gobernanza"]
+  foto: "fotos/martin-olmos.jpg"
+  links:
+    - {url: "https://www.linkedin.com/in/martinolmos/", texto: "LinkedIn"}
+
+- nombre: "Luciana Ferrer"
+  filiacion: "Instituto de Ciencias de la Computación, CONICET-UBA"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Procesamiento del habla y del lenguaje natural"
+  categories: ["Lenguaje y habla"]
+  foto: "fotos/luciana-ferrer.jpg"
+  links:
+    - {url: "https://www.liaa.dc.uba.ar/equipo/luciana-ferrer/", texto: "Perfil"}
+
+- nombre: "Rodrigo Castro"
+  filiacion: "Departamento de Computación, Exactas-UBA y CONICET"
+  ubicacion: "Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Simulación, algoritmos, IA, datos"
+  categories: ["Aprendizaje automático", "Datos"]
+  foto: "fotos/rodrigo-castro.jpg"
+  links:
+    - {url: "https://sedlab.dc.uba.ar/integrante/rodrigo-castro/", texto: "Perfil"}
+
+- nombre: "Guadalupe Dorna"
+  filiacion: "Universidad Torcuato Di Tella"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Educación, políticas públicas, evaluación de impacto"
+  categories: ["Educación", "Políticas públicas"]
+  foto: "fotos/guadalupe-dorna.jpg"
+  links:
+    - {url: "https://www.gdorna.com/", texto: "Web"}
+
+- nombre: "Claudio Delrieux"
+  filiacion: "Universidad Nacional del Sur y CONICET"
+  ubicacion: "Bahía Blanca, Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Inteligencia artificial, procesamiento de imágenes"
+  categories: ["Visión e imágenes"]
+  foto: "fotos/claudio-delrieux.jpg"
+  links:
+    - {url: "https://www.linkedin.com/in/claudio-delrieux-3308091/", texto: "LinkedIn"}
+
+- nombre: "Zaida Ruthb Caiguara Ramirez"
+  filiacion: "UCL IOE"
+  ubicacion: "Londres, Reino Unido"
+  region: "Exterior"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "IA y educación"
+  categories: ["Educación"]
+  foto: "fotos/zaida-ruthb-caiguara-ramirez.jpg"
+  links:
+    - {url: "https://www.linkedin.com/in/caiguara-ramirez-zaida/", texto: "LinkedIn"}
+
+- nombre: "Agustín Gravano"
+  filiacion: "UTDT y CONICET"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  especialidad: "Procesamiento del lenguaje natural y del habla"
+  categories: ["Lenguaje y habla"]
+  foto: "fotos/agustin-gravano.jpg"
+  links:
+    - {url: "https://www.utdt.edu/ia/integrantes/agravano/", texto: "Perfil"}
+
+- nombre: "Patricio Del Boca"
+  filiacion: "Open Knowledge Foundation"
+  ubicacion: "Ámsterdam, Países Bajos"
+  region: "Exterior"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Gobierno electrónico y data commons"
+  categories: ["Datos", "Gobernanza"]
+  foto: "fotos/patricio-del-boca.jpg"
+  links:
+    - {url: "https://pdelboca.me", texto: "Web"}
+
+- nombre: "Paula Feldman"
+  filiacion: "Weill Cornell Medicine"
+  ubicacion: "Nueva York, Estados Unidos"
+  region: "Exterior"
+  especialidad: "Imágenes médicas, IA generativa"
+  categories: ["Visión e imágenes", "Salud"]
+  foto: ""
+  links:
+    - {url: "https://www.linkedin.com/in/paula-adi-feldman", texto: "LinkedIn"}
+
+- nombre: "Leonardo Pepino"
+  filiacion: "Google DeepMind"
+  ubicacion: "Estados Unidos"
+  region: "Exterior"
+  especialidad: "Procesamiento de habla y audio, aprendizaje profundo, LLMs"
+  categories: ["Lenguaje y habla", "Aprendizaje automático"]
+  foto: "fotos/leonardo-pepino.jpg"
+  links:
+    - {url: "https://leonardopepino.latentsound.com", texto: "Web"}

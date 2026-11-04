@@ -1,18 +1,26 @@
-<!-- Call to action global: Red de expertos en IA de nadIA (se incluye en todas las páginas vía _quarto.yml; estilos en _cta-red-estilos.html) -->
+<!-- Módulo global: Red de Expertos nadIA (se incluye en todas las páginas vía _quarto.yml; estilos en _cta-red-estilos.html) -->
 <aside class="cta-red" id="cta-red" aria-labelledby="cta-red-titulo">
   <div class="cta-red-texto">
-    <p class="cta-red-etiqueta">Red de expertos</p>
-    <h2 id="cta-red-titulo">Sumate a la red de expertos en IA de nadIA</h2>
-    <p>¿Trabajás, investigás o desarrollás inteligencia artificial? Postulate para formar parte de la red y contribuir al desarrollo de Argentina.</p>
+    <p class="cta-red-etiqueta">Red de Expertos nadIA</p>
+    <h2 id="cta-red-titulo">Especialistas en IA, en Argentina y en el exterior</h2>
+    <p>Personas que investigan, desarrollan y aplican inteligencia artificial desde la academia, el Estado, las empresas y los organismos internacionales.</p>
   </div>
-  <a class="cta-red-boton"
-     href="https://docs.google.com/forms/d/e/1FAIpQLScOCj0PsBA6-61wAcX5kQmCC97kHtEozEk27NSAh8OLmh2xOA/viewform"
-     target="_blank" rel="noopener noreferrer">Quiero sumarme &rarr;</a>
+  <div class="cta-red-botones">
+    <a class="cta-red-boton" href="/redes/integrantes.html">Conocé a los expertos &rarr;</a>
+    <a class="cta-red-boton cta-red-boton-secundario"
+       href="https://docs.google.com/forms/d/e/1FAIpQLScOCj0PsBA6-61wAcX5kQmCC97kHtEozEk27NSAh8OLmh2xOA/viewform"
+       target="_blank" rel="noopener noreferrer">Ser parte</a>
+  </div>
 </aside>
 <script>
-  // Ubica el módulo al final del contenido, antes del banner del footer si la página lo tiene
+  // Ubica el módulo al final del contenido, antes del banner del footer si la página lo tiene.
+  // No se muestra dentro de la sección Redes, donde sería redundante.
   (function () {
     var cta = document.getElementById("cta-red");
+    if (window.location.pathname.indexOf("/redes/") !== -1) {
+      cta.remove();
+      return;
+    }
     var footer = document.querySelector("main .site-footer");
     var main = document.querySelector("main.content") || document.querySelector("main");
     if (footer) {
