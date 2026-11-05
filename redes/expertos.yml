@@ -334,3 +334,14 @@
   foto: "fotos/francisco-traversaro-varela.jpg"
   links:
     - {url: "https://www.linkedin.com/in/frantraversaro/", texto: "LinkedIn"}
+
+- nombre: "Soledad Guilera"
+  filiacion: "University of California, Berkeley"
+  ubicacion: "Berkeley, California, Estados Unidos"
+  region: "Exterior"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Políticas de IA, gobernanza y preparación institucional"
+  categories: ["Gobernanza", "Políticas públicas"]
+  foto: "fotos/soledad-guilera.jpg"
+  links:
+    - {url: "https://www.linkedin.com/in/soledadguilera/", texto: "LinkedIn"}
