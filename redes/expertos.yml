@@ -239,3 +239,57 @@
   foto: "fotos/eduardo-levy-yeyati.jpg"
   links:
     - {url: "https://eduardoyeyati.com/", texto: "Web"}
+
+- nombre: "Carlos Greg Diuk"
+  filiacion: "Meta"
+  ubicacion: "Mountain View, Estados Unidos"
+  region: "Exterior"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "IA aplicada"
+  categories: ["Aprendizaje automático"]
+  foto: "fotos/carlos-greg-diuk.jpg"
+  links:
+    - {url: "https://carlosdiuk.github.io/", texto: "Web"}
+
+- nombre: "Leandro Bugnon"
+  filiacion: "sinc(i) – UNL – CONICET"
+  ubicacion: "Santa Fe, Argentina"
+  region: "Argentina"
+  especialidad: "Bioinformática, AI safety"
+  categories: ["Aprendizaje automático", "Salud", "Gobernanza"]
+  foto: "fotos/leandro-bugnon.jpg"
+  links:
+    - {url: "https://lbugnon.github.io", texto: "Web"}
+
+- nombre: "Mariana Maggio"
+  filiacion: "Facultad de Filosofía y Letras, UBA / ITBA"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Tecnología educativa"
+  categories: ["Educación"]
+  foto: "fotos/mariana-maggio.jpg"
+  links:
+    - {url: "https://marianabmaggio.com/", texto: "Web"}
+
+- nombre: "Darío Judzik"
+  filiacion: "Universidad Torcuato Di Tella"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Futuro del trabajo y la producción con IA"
+  categories: ["Políticas públicas"]
+  foto: "fotos/dario-judzik.jpg"
+  links:
+    - {url: "https://www.linkedin.com/in/dar%C3%ADo-judzik-a0600b57/", texto: "LinkedIn"}
+
+- nombre: "Adolfo Kvitca"
+  filiacion: "Fundar"
+  ubicacion: "Uruguay"
+  region: "Exterior"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Educación"
+  categories: ["Educación"]
+  foto: "fotos/adolfo-kvitca.jpg"
+  links:
+    - {url: "https://icatalyst.info", texto: "Web"}
