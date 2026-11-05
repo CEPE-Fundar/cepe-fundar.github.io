@@ -399,6 +399,47 @@ ul.task-list li input[type="checkbox"] {
 .summit-material-botones { display: flex; flex-wrap: wrap; gap: 0.75rem; }
 .summit-material-botones .redes-boton { padding: 0.55rem 1.3rem; text-decoration: none; }
 
+/* Firma de la nota del Summit */
+.summit-firma {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin: 2.5rem 0 1rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #e5e5e5;
+}
+.summit-firma span { color: #555; font-size: 0.95rem; }
+
+/* Navegación entre Summit 2026, Fotos y Prensa */
+.summit-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  margin: 0 0 2rem;
+  padding: 0.75rem 1rem;
+  background: #f7f7fb;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+.summit-nav-pie { margin: 2.5rem 0 1.5rem; }
+.summit-nav a { text-decoration: none; border-bottom: none !important; font-weight: 600; }
+.summit-nav-volver { color: var(--accent-color) !important; }
+.summit-nav-volver:hover { text-decoration: underline; }
+.summit-nav-tabs { display: inline-flex; gap: 0.5rem; }
+.summit-nav-tabs a {
+  padding: 0.4rem 1.1rem;
+  border-radius: 999px;
+  border: 1.5px solid var(--accent-color);
+  color: var(--accent-color) !important;
+}
+.summit-nav-tabs a:hover { background: rgba(0, 0, 0, 0.03); }
+.summit-nav-tabs a[aria-current="page"] {
+  background: var(--accent-color);
+  color: #fff !important;
+}
+
 /* Catálogo de expertos */
 .catalogo-grid {
   display: grid;

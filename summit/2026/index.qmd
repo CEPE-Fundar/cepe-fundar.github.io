@@ -40,6 +40,13 @@ Queda, claro, la pregunta del eslabón. La Argentina integra dos clubes exclusiv
 
 La frontera, por ahora, la dibujan otros. El terreno propio todavía está a tiempo de ser relevado, con fondos, datos disponibles y espacios de prueba regulatorios (sandboxes) donde las empresas puedan ensayar con reglas más flexibles. Con más tiempo (y con los datos propios que hoy faltan) habrá que volver sobre cada uno de estos puntos.
 
+```{=html}
+<div class="summit-firma">
+  <strong>Juan Pablo Ruiz Nicolini</strong>
+  <span>Director de Gobierno Inteligente - Fundar</span>
+</div>
+```
+
 
 <footer class="site-footer">
   <img src="/NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">

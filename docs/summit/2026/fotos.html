@@ -368,6 +368,47 @@ ul.task-list li input[type="checkbox"] {
 .summit-material-botones { display: flex; flex-wrap: wrap; gap: 0.75rem; }
 .summit-material-botones .redes-boton { padding: 0.55rem 1.3rem; text-decoration: none; }
 
+/* Firma de la nota del Summit */
+.summit-firma {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin: 2.5rem 0 1rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #e5e5e5;
+}
+.summit-firma span { color: #555; font-size: 0.95rem; }
+
+/* Navegación entre Summit 2026, Fotos y Prensa */
+.summit-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  margin: 0 0 2rem;
+  padding: 0.75rem 1rem;
+  background: #f7f7fb;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+.summit-nav-pie { margin: 2.5rem 0 1.5rem; }
+.summit-nav a { text-decoration: none; border-bottom: none !important; font-weight: 600; }
+.summit-nav-volver { color: var(--accent-color) !important; }
+.summit-nav-volver:hover { text-decoration: underline; }
+.summit-nav-tabs { display: inline-flex; gap: 0.5rem; }
+.summit-nav-tabs a {
+  padding: 0.4rem 1.1rem;
+  border-radius: 999px;
+  border: 1.5px solid var(--accent-color);
+  color: var(--accent-color) !important;
+}
+.summit-nav-tabs a:hover { background: rgba(0, 0, 0, 0.03); }
+.summit-nav-tabs a[aria-current="page"] {
+  background: var(--accent-color);
+  color: #fff !important;
+}
+
 /* Catálogo de expertos */
 .catalogo-grid {
   display: grid;
@@ -688,6 +729,13 @@ ul.task-list li input[type="checkbox"] {
     }
   }
 </style>
+<nav class="summit-nav" aria-label="Summit 2026">
+  <a href="index.html" class="summit-nav-volver">← Volver al Summit 2026</a>
+  <span class="summit-nav-tabs">
+    <a href="fotos.html" aria-current="page">Fotos</a>
+    <a href="prensa.html">Prensa</a>
+  </span>
+</nav>
 <!-- Para sumar una foto: guardala en img/ (1600 px de ancho) y su miniatura en img/mini/ (640 px), y copiá un bloque <a> -->
 <div class="galeria">
   <a href="img/img_1681.jpg"><img src="img/mini/img_1681.jpg" alt="nadIA Summit 2026, foto 1" loading="lazy"></a>
@@ -771,6 +819,13 @@ ul.task-list li input[type="checkbox"] {
     });
   })();
 </script>
+<nav class="summit-nav summit-nav-pie" aria-label="Summit 2026">
+  <a href="index.html" class="summit-nav-volver">← Volver al Summit 2026</a>
+  <span class="summit-nav-tabs">
+    <a href="fotos.html" aria-current="page">Fotos</a>
+    <a href="prensa.html">Prensa</a>
+  </span>
+</nav>
 <footer class="site-footer">
 <img src="../../NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">
 </footer>

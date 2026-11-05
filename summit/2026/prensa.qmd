@@ -58,6 +58,16 @@ description: "Notas y coberturas en medios sobre el nadIA Summit 2026."
   }
 </style>
 
+```{=html}
+<nav class="summit-nav" aria-label="Summit 2026">
+  <a href="index.html" class="summit-nav-volver">← Volver al Summit 2026</a>
+  <span class="summit-nav-tabs">
+    <a href="fotos.html">Fotos</a>
+    <a href="prensa.html" aria-current="page">Prensa</a>
+  </span>
+</nav>
+```
+
 <!-- Para sumar una nota, copiá un bloque <li> y completá fecha, medio, link, título y autor (ordenadas de la más reciente a la más antigua) -->
 <ul class="prensa-lista">
   <li class="prensa-item">
@@ -84,6 +94,16 @@ description: "Notas y coberturas en medios sobre el nadIA Summit 2026."
     <a class="prensa-titulo" href="https://www.canal-ar.com.ar/34542-nadIA-Summit-por-que-la-Argentina-necesita-una-estrategia-propia-de-inteligencia-artificial.html" target="_blank" rel="noopener noreferrer">nadIA Summit: por qué la Argentina necesita una estrategia propia de inteligencia artificial</a>
   </li>
 </ul>
+
+```{=html}
+<nav class="summit-nav summit-nav-pie" aria-label="Summit 2026">
+  <a href="index.html" class="summit-nav-volver">← Volver al Summit 2026</a>
+  <span class="summit-nav-tabs">
+    <a href="fotos.html">Fotos</a>
+    <a href="prensa.html" aria-current="page">Prensa</a>
+  </span>
+</nav>
+```
 
 <footer class="site-footer">
   <img src="/NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">

@@ -368,6 +368,47 @@ ul.task-list li input[type="checkbox"] {
 .summit-material-botones { display: flex; flex-wrap: wrap; gap: 0.75rem; }
 .summit-material-botones .redes-boton { padding: 0.55rem 1.3rem; text-decoration: none; }
 
+/* Firma de la nota del Summit */
+.summit-firma {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin: 2.5rem 0 1rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #e5e5e5;
+}
+.summit-firma span { color: #555; font-size: 0.95rem; }
+
+/* Navegación entre Summit 2026, Fotos y Prensa */
+.summit-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  margin: 0 0 2rem;
+  padding: 0.75rem 1rem;
+  background: #f7f7fb;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+.summit-nav-pie { margin: 2.5rem 0 1.5rem; }
+.summit-nav a { text-decoration: none; border-bottom: none !important; font-weight: 600; }
+.summit-nav-volver { color: var(--accent-color) !important; }
+.summit-nav-volver:hover { text-decoration: underline; }
+.summit-nav-tabs { display: inline-flex; gap: 0.5rem; }
+.summit-nav-tabs a {
+  padding: 0.4rem 1.1rem;
+  border-radius: 999px;
+  border: 1.5px solid var(--accent-color);
+  color: var(--accent-color) !important;
+}
+.summit-nav-tabs a:hover { background: rgba(0, 0, 0, 0.03); }
+.summit-nav-tabs a[aria-current="page"] {
+  background: var(--accent-color);
+  color: #fff !important;
+}
+
 /* Catálogo de expertos */
 .catalogo-grid {
   display: grid;
@@ -624,6 +665,10 @@ ul.task-list li input[type="checkbox"] {
 <p>Un hilo conductor de la jornada es que estos problemas se parecen más a una falta de mapa que a una falta de tecnología. Antes de apostar a un eslabón de la cadena conviene saber con qué se cuenta: qué datos tiene el Estado, cuántas personas hacen qué trabajo, cuánta capacidad de cómputo existe y quién la usa.</p>
 <p>Queda, claro, la pregunta del eslabón. La Argentina integra dos clubes exclusivos, el de la energía atómica y el de los satélites, y puede preguntarse si hay lugar para uno propio de la IA. Competir en la frontera cuesta miles de millones de dólares, pero se pueden tomar modelos como los chinos, mejorarlos y desarrollar aplicaciones. Entre los ejemplos que circularon en el panel estuvo <a href="https://www.latamgpt.org/">Latam-GPT</a>, impulsado por el CENIA de Chile.</p>
 <p>La frontera, por ahora, la dibujan otros. El terreno propio todavía está a tiempo de ser relevado, con fondos, datos disponibles y espacios de prueba regulatorios (sandboxes) donde las empresas puedan ensayar con reglas más flexibles. Con más tiempo (y con los datos propios que hoy faltan) habrá que volver sobre cada uno de estos puntos.</p>
+<div class="summit-firma">
+  <strong>Juan Pablo Ruiz Nicolini</strong>
+  <span>Director de Gobierno Inteligente - Fundar</span>
+</div>
 <footer class="site-footer">
 <img src="../../NADIA-banners.png" alt="CEPE y Fundar" style="max-width: 100%; width: 100%; height: auto;">
 </footer>

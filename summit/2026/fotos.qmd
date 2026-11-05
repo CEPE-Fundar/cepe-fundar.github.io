@@ -94,6 +94,16 @@ resources:
   }
 </style>
 
+```{=html}
+<nav class="summit-nav" aria-label="Summit 2026">
+  <a href="index.html" class="summit-nav-volver">← Volver al Summit 2026</a>
+  <span class="summit-nav-tabs">
+    <a href="fotos.html" aria-current="page">Fotos</a>
+    <a href="prensa.html">Prensa</a>
+  </span>
+</nav>
+```
+
 <!-- Para sumar una foto: guardala en img/ (1600 px de ancho) y su miniatura en img/mini/ (640 px), y copiá un bloque <a> -->
 ```{=html}
 <div class="galeria">
@@ -178,6 +188,16 @@ resources:
     });
   })();
 </script>
+```
+
+```{=html}
+<nav class="summit-nav summit-nav-pie" aria-label="Summit 2026">
+  <a href="index.html" class="summit-nav-volver">← Volver al Summit 2026</a>
+  <span class="summit-nav-tabs">
+    <a href="fotos.html" aria-current="page">Fotos</a>
+    <a href="prensa.html">Prensa</a>
+  </span>
+</nav>
 ```
 
 <footer class="site-footer">
