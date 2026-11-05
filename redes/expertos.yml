@@ -293,3 +293,44 @@
   foto: "fotos/adolfo-kvitca.jpg"
   links:
     - {url: "https://icatalyst.info", texto: "Web"}
+
+- nombre: "Andrea Paula Goldin"
+  filiacion: "Laboratorio de Neurociencia (UTDT) – CONICET"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  origen: "Red de la Diáspora 2026"
+  especialidad: "Neurociencias, ciencias cognitivas y del comportamiento"
+  categories: ["Educación", "Salud"]
+  foto: "fotos/andrea-paula-goldin.jpg"
+  links:
+    - {url: "https://www.linkedin.com/in/andrea-goldin/", texto: "LinkedIn"}
+
+- nombre: "Carlos Sarraute"
+  filiacion: "Instituto Tecnológico de Buenos Aires (ITBA)"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  especialidad: "Ciencia de datos, ciencia de redes, seguridad informática"
+  categories: ["Datos", "Aprendizaje automático"]
+  foto: "fotos/carlos-sarraute.jpg"
+  links:
+    - {url: "https://www.linkedin.com/in/csarraute/", texto: "LinkedIn"}
+
+- nombre: "Luciano Del Corro"
+  filiacion: "Universidad de San Andrés"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  especialidad: "Eficiencia de LLMs, sistemas agénticos, procesamiento de lenguaje natural"
+  categories: ["Lenguaje y habla", "Aprendizaje automático"]
+  foto: ""
+  links:
+    - {url: "https://eliaslab.ai/", texto: "Web"}
+
+- nombre: "Francisco Traversaro Varela"
+  filiacion: "Universidad Torcuato Di Tella"
+  ubicacion: "Buenos Aires, Argentina"
+  region: "Argentina"
+  especialidad: "IA agéntica"
+  categories: ["Aprendizaje automático"]
+  foto: "fotos/francisco-traversaro-varela.jpg"
+  links:
+    - {url: "https://www.linkedin.com/in/frantraversaro/", texto: "LinkedIn"}
