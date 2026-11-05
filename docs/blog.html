@@ -381,6 +381,25 @@ ul.task-list li input[type="checkbox"] {
   border: 1.5px solid var(--accent-color) !important;
 }
 
+/* Caja de material del Summit (Fotos y Prensa) */
+.summit-material {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 1.5rem;
+  margin: 2rem 0 2.5rem;
+  padding: 1.25rem 1.5rem;
+  background: #f7f7fb;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+.summit-material-texto { display: flex; flex-direction: column; gap: 0.2rem; }
+.summit-material-texto strong { font-size: 1.05rem; }
+.summit-material-texto span { color: #555; font-size: 0.95rem; }
+.summit-material-botones { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.summit-material-botones .redes-boton { padding: 0.55rem 1.3rem; text-decoration: none; }
+
 /* Catálogo de expertos */
 .catalogo-grid {
   display: grid;
@@ -594,14 +613,6 @@ window.Quarto = {
         <li>
     <a class="dropdown-item" href="./summit/2026/index.html">
  <span class="dropdown-text">Summit 2026</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./summit/2026/prensa.html">
- <span class="dropdown-text">Prensa</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./summit/2026/fotos.html">
- <span class="dropdown-text">Fotos</span></a>
   </li>  
     </ul>
   </li>

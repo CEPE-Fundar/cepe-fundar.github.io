@@ -349,6 +349,25 @@ ul.task-list li input[type="checkbox"] {
   border: 1.5px solid var(--accent-color) !important;
 }
 
+/* Caja de material del Summit (Fotos y Prensa) */
+.summit-material {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 1.5rem;
+  margin: 2rem 0 2.5rem;
+  padding: 1.25rem 1.5rem;
+  background: #f7f7fb;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+.summit-material-texto { display: flex; flex-direction: column; gap: 0.2rem; }
+.summit-material-texto strong { font-size: 1.05rem; }
+.summit-material-texto span { color: #555; font-size: 0.95rem; }
+.summit-material-botones { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.summit-material-botones .redes-boton { padding: 0.55rem 1.3rem; text-decoration: none; }
+
 /* Catálogo de expertos */
 .catalogo-grid {
   display: grid;
@@ -534,14 +553,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="../../summit/2026/index.html">
  <span class="dropdown-text">Summit 2026</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../../summit/2026/prensa.html">
- <span class="dropdown-text">Prensa</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../summit/2026/fotos.html">
- <span class="dropdown-text">Fotos</span></a>
-  </li>  
     </ul>
   </li>
 </ul>
@@ -593,6 +604,16 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="../../extras/ely_dy.jpg" alt="NADIA Summit" style="max-width: 100%; height: auto;"></p>
 </div>
 <p>El debate global suele dibujarse con dos trazos. Por un lado, quienes aceleran, con la promesa de una superinteligencia; por otro, quienes piden frenar, con advertencias catastróficas. Si bien ambos reconocen la magnitud del cambio, los dos miran hacia el borde del mapa. En el panel se señaló que, detrás del pánico existencial, también hay intereses comerciales (empresas que buscan barreras de entrada y Estados que hagan de reaseguro), pero que tampoco sirve imaginar un paraíso desregulado: sin reglas claras de responsabilidad, las empresas de telemedicina, crédito o seguros no pueden asegurarse ni operar. Y los riesgos de los sistemas avanzados existen (un agente no necesita ser consciente para hacer daño, alcanza con que optimice mal una instrucción), lo que justifica pruebas, entornos controlados y supervisión.</p>
+<div class="summit-material">
+  <div class="summit-material-texto">
+    <strong>Material del Summit 2026</strong>
+    <span>Las fotos de la jornada y la cobertura en medios.</span>
+  </div>
+  <div class="summit-material-botones">
+    <a href="fotos.html" class="redes-boton">Fotos →</a>
+    <a href="prensa.html" class="redes-boton redes-boton-secundario">Prensa</a>
+  </div>
+</div>
 <section id="a-nuestra-escala" class="level2">
 <h2 class="anchored" data-anchor-id="a-nuestra-escala">A nuestra escala</h2>
 <p>Cabe preguntarnos entonces qué hay a escala propia. La imagen que mejor lo resume surgió en ese mismo panel: oficinas públicas del interior donde la gestión diaria descansa en papel, en registros informales o en una base de datos guardada en un pendrive. Sobre esa base cuesta pensar en las sociedades de agentes autónomos que hoy se promocionan (que, por lo demás, pueden resolverse con una SRL común mientras haya socios gerentes humanos que respondan ante la ley). Lo urgente es más modesto: inventariar los datos del Estado, definir quién accede a cuáles y poder conectarlos. Y responder una pregunta previa, la de para qué se quiere la IA y en qué eslabón de la cadena se quiere estar; ofrecer energía barata y beneficios fiscales para atraer un centro de datos fue calificado, en el diagnóstico del panel, como una estrategia pobre.</p>

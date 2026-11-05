@@ -15,6 +15,7 @@ docs/PREVIEW_INSTRUCTIONS.html
 
 # Salida de Quarto en la raíz (solo debe publicarse bajo docs/)
 /*.html
+!/_*.html
 
 # Sistema
 .DS_Store

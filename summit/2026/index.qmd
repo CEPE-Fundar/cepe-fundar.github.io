@@ -9,6 +9,19 @@ description: "**El viernes 2 de octubre, en la Universidad Di Tella, el nadIA Su
 
 El debate global suele dibujarse con dos trazos. Por un lado, quienes aceleran, con la promesa de una superinteligencia; por otro, quienes piden frenar, con advertencias catastróficas. Si bien ambos reconocen la magnitud del cambio, los dos miran hacia el borde del mapa. En el panel se señaló que, detrás del pánico existencial, también hay intereses comerciales (empresas que buscan barreras de entrada y Estados que hagan de reaseguro), pero que tampoco sirve imaginar un paraíso desregulado: sin reglas claras de responsabilidad, las empresas de telemedicina, crédito o seguros no pueden asegurarse ni operar. Y los riesgos de los sistemas avanzados existen (un agente no necesita ser consciente para hacer daño, alcanza con que optimice mal una instrucción), lo que justifica pruebas, entornos controlados y supervisión.
 
+```{=html}
+<div class="summit-material">
+  <div class="summit-material-texto">
+    <strong>Material del Summit 2026</strong>
+    <span>Las fotos de la jornada y la cobertura en medios.</span>
+  </div>
+  <div class="summit-material-botones">
+    <a href="fotos.html" class="redes-boton">Fotos →</a>
+    <a href="prensa.html" class="redes-boton redes-boton-secundario">Prensa</a>
+  </div>
+</div>
+```
+
 ## A nuestra escala
 
 Cabe preguntarnos entonces qué hay a escala propia. La imagen que mejor lo resume surgió en ese mismo panel: oficinas públicas del interior donde la gestión diaria descansa en papel, en registros informales o en una base de datos guardada en un pendrive. Sobre esa base cuesta pensar en las sociedades de agentes autónomos que hoy se promocionan (que, por lo demás, pueden resolverse con una SRL común mientras haya socios gerentes humanos que respondan ante la ley). Lo urgente es más modesto: inventariar los datos del Estado, definir quién accede a cuáles y poder conectarlos. Y responder una pregunta previa, la de para qué se quiere la IA y en qué eslabón de la cadena se quiere estar; ofrecer energía barata y beneficios fiscales para atraer un centro de datos fue calificado, en el diagnóstico del panel, como una estrategia pobre.
