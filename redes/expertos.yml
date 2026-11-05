@@ -1,4 +1,4 @@
-# Catálogo de la Red de Expertos nadIA
+# Red de Expertos nadIA
 # Fuente: formulario "Event Feedback (Respuestas)" en Google Sheets.
 # NO incluir correo ni teléfono: este archivo se publica tal cual.
 #
@@ -11,7 +11,7 @@
 #   origen: etiqueta opcional, p. ej. "Red de la Diáspora 2026" (se muestra arriba del nombre)
 #
 # Áreas usadas: Gobernanza, Políticas públicas, Datos, Educación,
-#   Lenguaje y habla, Visión e imágenes, Aprendizaje automático, Salud
+#   Lenguaje y habla, Visión e imágenes, Aprendizaje automático, Salud, Adopción, Safety
 
 - nombre: "Juan Pablo Ruiz Nicolini"
   filiacion: "Fundar"
@@ -235,7 +235,7 @@
   ubicacion: "Buenos Aires, Argentina – Washington DC, Estados Unidos"
   region: "Argentina"
   especialidad: "Futuro del trabajo, estrategia de IA"
-  categories: ["Políticas públicas", "Gobernanza"]
+  categories: ["Adopción", "Políticas públicas", "Gobernanza"]
   foto: "fotos/eduardo-levy-yeyati.jpg"
   links:
     - {url: "https://eduardoyeyati.com/", texto: "Web"}
@@ -256,7 +256,7 @@
   ubicacion: "Santa Fe, Argentina"
   region: "Argentina"
   especialidad: "Bioinformática, AI safety"
-  categories: ["Aprendizaje automático", "Salud", "Gobernanza"]
+  categories: ["Aprendizaje automático", "Salud", "Safety"]
   foto: "fotos/leandro-bugnon.jpg"
   links:
     - {url: "https://lbugnon.github.io", texto: "Web"}
@@ -278,7 +278,7 @@
   region: "Argentina"
   origen: "Red de la Diáspora 2026"
   especialidad: "Futuro del trabajo y la producción con IA"
-  categories: ["Políticas públicas"]
+  categories: ["Adopción", "Políticas públicas"]
   foto: "fotos/dario-judzik.jpg"
   links:
     - {url: "https://www.linkedin.com/in/dar%C3%ADo-judzik-a0600b57/", texto: "LinkedIn"}
